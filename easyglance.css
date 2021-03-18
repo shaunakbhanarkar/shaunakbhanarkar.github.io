@@ -27,6 +27,7 @@
 
     .user-persona-image {
         width: 30%;
+        min-height: auto;
     }
 
     .user-persona-name {
@@ -97,6 +98,7 @@
 
     .user-persona-image {
         width: 30%;
+        min-height: auto;
     }
 
     .user-persona-name {
@@ -176,6 +178,7 @@
 
     .user-persona-image {
         width: 50%;
+        min-height: auto;
     }
 
     .user-persona-name {
@@ -248,6 +251,7 @@
 
     .user-persona-image {
         width: 50%;
+        min-height: auto;
     }
 
     .user-persona-name {
@@ -320,6 +324,7 @@
 
     .user-persona-image {
         width: 30%;
+        min-height: auto;
     }
 
     .user-persona-name {
