@@ -1,0 +1,371 @@
+:root{
+    --blue: #2196f3;
+    --dark: #071e31;
+    --light: #fafbfb;
+    --light2: #f5f6f7;
+}
+
+/*mobile breakpoint*/
+@media (max-width: 499px) {
+
+    .user-personas-container {
+        display: block;
+    }
+
+    .user-persona, .user-need {
+        width: 100%;
+        padding: 20px;
+        background: var(--light2);
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+
+    .user-persona-image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .user-persona-image {
+        width: 30%;
+    }
+
+    .user-persona-name {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .user-persona-highlights {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 16px;
+    }
+
+    .user-persona-description {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+
+    .user-pain-point-heading {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .user-pain-point-description {
+        font-size: 16px;
+    }
+
+    .user-needs-container {
+        display: block;
+    }
+
+
+    .user-need-number {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .user-need-text {
+        font-size: 16px;
+        padding: 20px 0;
+        text-align: center;
+    }
+}
+
+/*tablet breakpoint*/
+@media (min-width: 500px) and (max-width: 799px) {
+
+    .user-personas-container {
+        display: block;
+    }
+
+    .user-persona {
+        width: 100%;
+        padding: 20px;
+        background: var(--light2);
+        border-radius: 15px;
+        margin: 20px 0;
+    }
+
+    .user-persona-image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .user-persona-image {
+        width: 30%;
+    }
+
+    .user-persona-name {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .user-persona-highlights {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 16px;
+    }
+
+    .user-persona-description {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+
+    .user-pain-point-heading {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .user-pain-point-description {
+        font-size: 16px;
+    }
+
+    .user-need {
+        width: 33.33%;
+        padding: 10px;
+        background: var(--light2);
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .user-needs-container {
+        display: flex;
+    }
+
+    .user-need-number {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .user-need-text {
+        font-size: 16px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+}
+
+/*large tablet breakpoint*/
+@media (min-width: 800px) and (max-width: 1099px) {
+
+    .user-personas-container {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .user-persona, .user-need {
+        width: 33.33%;
+        padding: 20px;
+        background: var(--light2);
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .user-persona-image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .user-persona-image {
+        width: 50%;
+    }
+
+    .user-persona-name {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .user-persona-highlights {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 16px;
+    }
+
+    .user-persona-description {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+
+    .user-pain-point-heading {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .user-pain-point-description {
+        font-size: 16px;
+    }
+
+    .user-needs-container {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .user-need-number {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .user-need-text {
+        font-size: 16px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+}
+
+/*desktop breakpoint*/
+@media (min-width: 1100px) and (max-width: 1499px) {
+
+    .user-personas-container {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .user-persona, .user-need {
+        width: 33.33%;
+        padding: 20px;
+        background: var(--light2);
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .user-persona-image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .user-persona-image {
+        width: 50%;
+    }
+
+    .user-persona-name {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .user-persona-highlights {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 16px;
+    }
+
+    .user-persona-description {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+
+    .user-pain-point-heading {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .user-pain-point-description {
+        font-size: 16px;
+    }
+
+    .user-needs-container {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .user-need-number {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .user-need-text {
+        font-size: 16px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+}
+
+/*large desktop breakpoint*/
+@media (min-width: 1500px) {
+
+    .user-personas-container {
+        display: flex;
+        padding: 40px 0;
+    }
+
+    .user-persona, .user-need {
+        width: 33.33%;
+        padding: 20px;
+        background: var(--light2);
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .user-persona-image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .user-persona-image {
+        width: 30%;
+    }
+
+    .user-persona-name {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    .user-persona-highlights {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 20px;
+    }
+
+    .user-persona-description {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    .user-pain-point-heading {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .user-pain-point-description {
+        font-size: 20px;
+    }
+
+    .user-needs-container {
+        display: flex;
+        padding: 40px 0;
+    }
+
+
+    .user-need-number {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    .user-need-text {
+        font-size: 20px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+}
