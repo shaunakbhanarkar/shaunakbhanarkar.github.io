@@ -72,6 +72,53 @@
         padding: 20px 0;
         text-align: center;
     }
+
+    .table-custom {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .table-custom .material-icons-round {
+        font-size: 12px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    th {
+        width: 25%;
+    }
+
+    .table-left-radius {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .table-right-radius {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+        background: var(--light2);
+    }
+
+    .storyboards-container {
+        display: block;
+    }
+
+    .storyboard {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    figcaption {
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+
 }
 
 /*tablet breakpoint*/
@@ -149,6 +196,54 @@
         text-align: center;
     }
 
+
+    .table-custom {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .table-custom .material-icons-round {
+        font-size: 15px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    th {
+        width: 25%;
+    }
+
+    .table-left-radius {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .table-right-radius {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+        background: var(--light2);
+    }
+
+    .storyboards-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .storyboard {
+        width: 40%;
+        margin: 20px;
+    }
+
+    figcaption {
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+
 }
 
 /*large tablet breakpoint*/
@@ -220,6 +315,48 @@
         text-align: center;
     }
 
+    .table-custom {
+        margin-top: 20px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    th {
+        width: 25%;
+    }
+
+    .table-left-radius {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .table-right-radius {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+        background: var(--light2);
+    }
+
+    .storyboards-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .storyboard {
+        width: 40%;
+        margin: 20px;
+    }
+
+    figcaption {
+        text-align: center;
+        padding: 15px;
+        font-size: 16px;
+    }
+
 }
 
 /*desktop breakpoint*/
@@ -289,6 +426,48 @@
         font-size: 16px;
         padding: 20px 0;
         text-align: center;
+    }
+
+    .table-custom {
+        margin-top: 20px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    th {
+        width: 25%;
+    }
+
+    .table-left-radius {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .table-right-radius {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+        background: var(--light2);
+    }
+
+    .storyboards-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .storyboard {
+        width: 40%;
+        margin: 20px;
+    }
+
+    figcaption {
+        text-align: center;
+        padding: 15px;
+        font-size: 16px;
     }
 
 }
@@ -363,4 +542,45 @@
         text-align: center;
     }
 
+    .table-custom {
+        margin-top: 20px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    th {
+        width: 25%;
+    }
+
+    .table-left-radius {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .table-right-radius {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+        background: var(--light2);
+    }
+
+    .storyboards-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .storyboard {
+        width: 40%;
+        margin: 50px;
+    }
+
+    figcaption {
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+    }
 }
