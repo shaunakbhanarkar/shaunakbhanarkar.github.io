@@ -1,8 +1,18 @@
 :root{
     --blue: #2196f3;
-    --dark: #071e31;
+    --dark: #203446;
     --light: #fafbfb;
     --light2: #f5f6f7;
+    --easyglance-accent: #f0c343;
+    --easyglance-background: #fcf3d9;
+}
+
+.easyglance-accent {
+    color: var(--easyglance-accent);
+}
+
+.easyglance-background {
+    background: var(--easyglance-background);
 }
 
 /*mobile breakpoint*/
