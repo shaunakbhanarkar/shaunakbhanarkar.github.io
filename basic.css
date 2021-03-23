@@ -24,9 +24,18 @@ a:hover {
 /*mobile breakpoint*/
 @media (max-width: 499px ) {
 
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
     .header {
         background: white;
-        padding: 20px;
+        padding: 20px 0;
+    }
+
+    .header-container {
+        display: block;
     }
 
     .logo {
@@ -65,8 +74,7 @@ a:hover {
 
 
     .footer {
-        display: block;
-        padding: 40px;
+        padding: 20px 0;
         background: var(--light2);
     }
 
@@ -93,10 +101,23 @@ a:hover {
 /*tablet breakpoint*/
 @media (min-width: 500px ) and (max-width: 799px){
 
+    .container {
+        width: 100%;
+        max-width: 720px;
+        margin: auto;
+    }
+
+
     .header {
         background: white;
-        padding: 20px;
+        padding: 20px 0;
     }
+
+
+    .header-container {
+        display: block;
+    }
+
 
     .logo {
         text-align: center;
@@ -135,8 +156,7 @@ a:hover {
 
 
     .footer {
-        display: block;
-        padding: 40px;
+        padding: 20px 0;
         background: var(--light2);
     }
 
@@ -165,9 +185,19 @@ a:hover {
 /*large tablet breakpoint*/
 @media (min-width: 800px ) and (max-width: 1099px){
 
+
+    .container {
+        width: 100%;
+        max-width: 850px;
+        margin: auto;
+    }
+
     .header {
         background: white;
-        padding: 20px 90px;
+        padding: 20px 0;
+    }
+
+    .header-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -208,8 +238,7 @@ a:hover {
 
 
     .footer {
-        display: block;
-        padding: 40px;
+        padding: 20px 0;
         background: var(--light2);
     }
 
@@ -238,9 +267,18 @@ a:hover {
 /*desktop breakpoint*/
 @media (min-width: 1100px ) and (max-width: 1499px) {
 
+    .container {
+        width: 100%;
+        max-width: 1040px;
+        margin: auto;
+    }
+
     .header {
         background: white;
-        padding: 20px 200px;
+        padding: 20px 0;
+    }
+
+    .header-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -281,8 +319,7 @@ a:hover {
 
 
     .footer {
-        display: block;
-        padding: 40px;
+        padding: 40px 0;
         background: var(--light2);
     }
 
@@ -313,9 +350,18 @@ a:hover {
 /*large desktop breakpoint*/
 @media (min-width: 1500px ) {
 
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
     .header {
         background: white;
-        padding: 40px 300px;
+        padding: 40px 0;
+    }
+
+    .header-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -355,8 +401,7 @@ a:hover {
 
 
     .footer {
-        display: block;
-        padding: 40px;
+        padding: 40px 0;
         background: var(--light2);
     }
 

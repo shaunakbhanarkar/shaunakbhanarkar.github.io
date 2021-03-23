@@ -13,7 +13,7 @@
 
 
     .header-image-section {
-        padding: 20px;
+        padding: 20px 0;
     }
 
     .header-image {
@@ -22,7 +22,7 @@
     }
 
     .title-section {
-        padding: 20px;
+        padding: 10px 0;
     }
 
     .title {
@@ -41,7 +41,7 @@
 
 
     .content-section {
-        padding: 20px;
+        padding: 20px 0;
     }
 
     .content-section-heading {
@@ -67,7 +67,7 @@
 
 
     .header-image-section {
-        padding: 20px 100px;
+        padding: 20px 0;
     }
 
     .header-image {
@@ -76,7 +76,7 @@
     }
 
     .title-section {
-        padding: 20px 100px;
+        padding: 20px 0;
     }
 
     .title {
@@ -95,7 +95,7 @@
 
 
     .content-section {
-        padding: 40px 100px;
+        padding: 40px 0;
     }
 
     .content-section-heading {
@@ -121,7 +121,7 @@
 
 
     .header-image-section {
-        padding: 20px 90px;
+        padding: 20px 0;
     }
 
     .header-image {
@@ -130,7 +130,7 @@
     }
 
     .title-section {
-        padding: 20px 90px;
+        padding: 20px 0;
     }
 
     .title {
@@ -149,7 +149,7 @@
 
 
     .content-section {
-        padding: 50px 90px;
+        padding: 50px 0;
     }
 
     .content-section-heading {
@@ -173,7 +173,7 @@
 
 
     .header-image-section {
-        padding: 20px 200px;
+        padding: 20px 0;
     }
 
     .header-image {
@@ -182,7 +182,7 @@
     }
 
     .title-section {
-        padding: 20px 200px;
+        padding: 20px 0;
     }
 
     .title {
@@ -201,7 +201,7 @@
 
 
     .content-section {
-        padding: 100px 200px;
+        padding: 100px 0;
     }
 
     .content-section-heading {
@@ -225,7 +225,7 @@
 
 
     .header-image-section {
-        padding: 40px 300px;
+        padding: 40px 0;
     }
 
     .header-image {
@@ -234,7 +234,7 @@
     }
 
     .title-section {
-        padding: 40px 300px;
+        padding: 40px 0;
     }
 
     .title {
@@ -253,7 +253,7 @@
 
 
     .content-section {
-        padding: 100px 300px;
+        padding: 100px 0;
     }
 
     .content-section-heading {
