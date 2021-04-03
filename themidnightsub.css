@@ -1,0 +1,224 @@
+:root{
+    --blue: #2196f3;
+    --dark: #203446;
+    --light: #fafbfb;
+    --light2: #f5f6f7;
+    --themignightsub-accent: #FA7E6C;
+    --easyglance-background: #fcf3d9;
+}
+
+.themidnightsub-accent {
+    color: var(--themignightsub-accent);
+}
+
+.easyglance-background {
+    background: var(--easyglance-background);
+}
+
+.audience-illustrations-row {
+    text-align: center;
+}
+
+.audience-illustration-container {
+    padding: 20px 50px !important;
+}
+
+.college-student-illustration {
+    width: 100%;
+}
+
+.night-sight-worker-illustration {
+    width: 65%;
+}
+
+.audience-illustration-heading {
+    padding-top: 20px;
+}
+
+/*mobile breakpoint*/
+@media (max-width: 499px) {
+
+    .content-row {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .grid-content-container {
+        width: 100%;
+        padding: 20px;
+        background: var(--light2);
+        border-radius: 10px;
+    }
+
+    .grid-content-container-left {
+        margin-bottom: 20px;
+    }
+
+    .grid-content-container-right {
+        margin-top: 20px;
+    }
+
+    .grid-content-icon {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .grid-content-heading {
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+
+}
+
+/*tablet breakpoint*/
+@media (min-width: 500px) and (max-width: 799px) {
+
+    .content-row {
+        display: flex;
+        margin: 40px 0;
+    }
+
+    .grid-content-container {
+        width: 50%;
+        padding: 20px;
+        background: var(--light2);
+        border-radius: 10px;
+    }
+
+    .grid-content-container-left {
+        margin-right: 20px;
+    }
+
+    .grid-content-container-right {
+        margin-left: 20px;
+    }
+
+    .grid-content-icon {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .grid-content-heading {
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+
+}
+
+/*large tablet breakpoint*/
+@media (min-width: 800px) and (max-width: 1099px) {
+
+    .content-row {
+        display: flex;
+        margin: 40px 0;
+    }
+
+    .grid-content-container {
+        width: 50%;
+        padding: 20px;
+        background: var(--light2);
+        border-radius: 10px;
+    }
+
+    .grid-content-container-left {
+        margin-right: 20px;
+    }
+
+    .grid-content-container-right {
+        margin-left: 20px;
+    }
+
+    .grid-content-icon {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .grid-content-heading {
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+}
+
+/*desktop breakpoint*/
+@media (min-width: 1100px) and (max-width: 1499px) {
+
+    .content-row {
+        display: flex;
+        margin: 40px 0;
+    }
+
+    .grid-content-container {
+        width: 50%;
+        padding: 20px;
+        background: var(--light2);
+        border-radius: 10px;
+    }
+
+    .grid-content-container-left {
+        margin-right: 20px;
+    }
+
+    .grid-content-container-right {
+        margin-left: 20px;
+    }
+
+    .grid-content-icon {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .grid-content-heading {
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+}
+
+/*large desktop breakpoint*/
+@media (min-width: 1500px) {
+
+    .content-row {
+        display: flex;
+        margin: 40px 0;
+    }
+
+    .grid-content-container {
+        width: 50%;
+        padding: 20px;
+        background: var(--light2);
+        border-radius: 10px;
+    }
+
+    .grid-content-container-left {
+        margin-right: 20px;
+    }
+
+    .grid-content-container-right {
+        margin-left: 20px;
+    }
+
+    .grid-content-icon {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    .grid-content-heading {
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+
+}
