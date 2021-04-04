@@ -3,7 +3,7 @@
     --dark: #203446;
     --light: #fafbfb;
     --light2: #f5f6f7;
-    --themignightsub-accent: #FA7E6C;
+    --themignightsub-accent: #FF644E;
     --easyglance-background: #fcf3d9;
 }
 
@@ -11,8 +11,12 @@
     color: var(--themignightsub-accent);
 }
 
-.easyglance-background {
-    background: var(--easyglance-background);
+.themidnightsub-background {
+    background: var(--themignightsub-accent);
+}
+
+.dark-background {
+    background: var(--dark);
 }
 
 .audience-illustrations-row {
@@ -34,6 +38,9 @@
 .audience-illustration-heading {
     padding-top: 20px;
 }
+
+
+
 
 /*mobile breakpoint*/
 @media (max-width: 499px) {
@@ -70,6 +77,87 @@
         line-height: 36px;
     }
 
+    .user-research-image {
+        background: var(--light2);
+        margin: 20px 0;
+    }
+
+    .user-needs-container {
+        display: block;
+    }
+
+    .user-persona, .user-need {
+        width: 100%;
+        padding: 20px;
+        background: var(--light2);
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+
+
+    .user-need-number {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .user-need-text {
+        font-size: 16px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .user-personas-container {
+        display: block;
+    }
+
+    .user-persona-image-container {
+        text-align: center;
+    }
+
+    .user-persona-text-container {
+        display: block;
+    }
+
+    .user-persona-image {
+        width: 30%;
+        border-radius: 50%;
+    }
+
+    .user-persona-name {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .user-persona-highlights {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 16px;
+    }
+
+
+    .user-pain-point-description {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .sitemap {
+        background: var(--light2);
+        margin-top: 20px;
+    }
+
+    .wireframe {
+        background: var(--themignightsub-accent);
+        margin-top: 20px;
+    }
+
+    .moodboard {
+        margin-top: 20px;
+    }
 
 }
 
@@ -108,6 +196,93 @@
         line-height: 36px;
     }
 
+    .user-research-image {
+        background: var(--light2);
+        margin: 40px 0;
+    }
+
+    .user-need {
+        width: 33.33%;
+        padding: 10px;
+        background: var(--light2);
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .user-needs-container {
+        display: flex;
+    }
+
+    .user-need-number {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .user-need-text {
+        font-size: 16px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .user-personas-container {
+        display: block;
+    }
+
+    .user-persona {
+        width: 100%;
+        padding: 20px;
+        background: var(--light2);
+        border-radius: 15px;
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .user-persona-image-container {
+        text-align: center;
+        width: 30%;
+    }
+
+    .user-persona-text-container {
+        display: block;
+        width: 70%;
+    }
+
+    .user-persona-image {
+        width: 70%;
+        border-radius: 50%;
+    }
+
+    .user-persona-name {
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .user-persona-highlights {
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 16px;
+    }
+
+    .user-pain-point-description {
+        font-size: 16px;
+    }
+
+    .sitemap {
+        background: var(--light2);
+        margin-top: 20px;
+    }
+
+    .wireframe {
+        background: var(--themignightsub-accent);
+        margin-top: 20px;
+    }
+
+    .moodboard {
+        margin-top: 20px;
+    }
 
 }
 
@@ -144,6 +319,95 @@
         font-size: 24px;
         font-weight: 700;
         line-height: 48px;
+    }
+
+    .user-research-image {
+        background: var(--light2);
+        margin: 40px 0;
+    }
+
+    .user-need {
+        width: 33.33%;
+        padding: 20px;
+        background: var(--light2);
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .user-needs-container {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .user-need-number {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .user-need-text {
+        font-size: 16px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .user-personas-container {
+        display: block;
+    }
+
+    .user-persona {
+        width: 100%;
+        padding: 20px;
+        background: var(--light2);
+        border-radius: 15px;
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .user-persona-image-container {
+        text-align: center;
+        width: 40%;
+    }
+
+    .user-persona-text-container {
+        display: block;
+        width: 60%;
+    }
+
+    .user-persona-image {
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    .user-persona-name {
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .user-persona-highlights {
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 16px;
+    }
+
+    .user-pain-point-description {
+        font-size: 16px;
+    }
+
+    .sitemap {
+        background: var(--light2);
+        margin-top: 40px;
+    }
+
+    .wireframe {
+        background: var(--themignightsub-accent);
+        margin-top: 40px;
+    }
+
+    .moodboard {
+        margin-top: 40px;
     }
 
 }
@@ -183,6 +447,88 @@
         line-height: 48px;
     }
 
+    .user-research-image {
+        background: var(--light2);
+        margin: 40px 0;
+    }
+
+    .user-persona, .user-need {
+        width: 33.33%;
+        padding: 20px;
+        background: var(--light2);
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .user-needs-container {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .user-need-number {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .user-need-text {
+        font-size: 16px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .user-personas-container {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .user-persona-image-container {
+        text-align: center;
+    }
+
+    .user-persona-text-container {
+        display: block;
+    }
+
+    .user-persona-image {
+        width: 35%;
+        border-radius: 50%;
+    }
+
+    .user-persona-name {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .user-persona-highlights {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 16px;
+    }
+
+    .user-pain-point-description {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .sitemap {
+        background: var(--light2);
+        margin-top: 40px;
+    }
+
+    .wireframe {
+        background: var(--themignightsub-accent);
+        margin-top: 40px;
+    }
+
+    .moodboard {
+        margin-top: 40px;
+    }
+
 }
 
 /*large desktop breakpoint*/
@@ -218,6 +564,89 @@
         font-size: 30px;
         font-weight: 700;
         line-height: 60px;
+    }
+
+    .user-research-image {
+        background: var(--light2);
+        margin: 40px 0;
+    }
+
+    .user-persona, .user-need {
+        width: 33.33%;
+        padding: 20px;
+        background: var(--light2);
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .user-needs-container {
+        display: flex;
+        padding: 40px 0;
+    }
+
+
+    .user-need-number {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    .user-need-text {
+        font-size: 20px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .user-personas-container {
+        display: flex;
+        padding: 40px 0;
+    }
+
+    .user-persona-image-container {
+        text-align: center;
+    }
+
+    .user-persona-text-container {
+        display: block;
+    }
+
+    .user-persona-image {
+        width: 30%;
+        border-radius: 50%;
+    }
+
+    .user-persona-name {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .user-persona-highlights {
+        text-align: center;
+        font-family: 'DM Sans', 'sans-serif';
+        font-size: 20px;
+    }
+
+    .user-pain-point-description {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .sitemap {
+        background: var(--light2);
+        margin-top: 40px;
+    }
+
+    .wireframe {
+        background: var(--themignightsub-accent);
+        margin-top: 40px;
+    }
+
+    .moodboard {
+        margin-top: 40px;
     }
 
 
