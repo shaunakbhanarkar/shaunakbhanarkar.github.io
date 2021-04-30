@@ -159,6 +159,18 @@
         margin-top: 20px;
     }
 
+    .grid-2-container {
+        display: block;
+    }
+
+    .grid-2-item-container {
+        width: 100%;
+    }
+
+    .grid-image {
+        width: 100%;
+    }
+
 }
 
 /*tablet breakpoint*/
@@ -284,6 +296,21 @@
         margin-top: 20px;
     }
 
+
+    .grid-2-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .grid-2-item-container {
+        width: 50%;
+    }
+
+    .grid-image {
+        width: 100%;
+    }
+
+    
 }
 
 /*large tablet breakpoint*/
@@ -410,6 +437,19 @@
         margin-top: 40px;
     }
 
+    .grid-2-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .grid-2-item-container {
+        width: 50%;
+    }
+
+    .grid-image {
+        width: 100%;
+    }
+
 }
 
 /*desktop breakpoint*/
@@ -527,6 +567,19 @@
 
     .moodboard {
         margin-top: 40px;
+    }
+
+    .grid-2-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .grid-2-item-container {
+        width: 50%;
+    }
+
+    .grid-image {
+        width: 100%;
     }
 
 }
@@ -649,5 +702,18 @@
         margin-top: 40px;
     }
 
+
+    .grid-2-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .grid-2-item-container {
+        width: 50%;
+    }
+
+    .grid-image {
+        width: 100%;
+    }
 
 }
