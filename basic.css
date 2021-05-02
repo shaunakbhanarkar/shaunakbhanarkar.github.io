@@ -21,6 +21,8 @@
     --grey-90: #e9ebed;
     --grey-95: #f4f5f6;
     --white: #ffffff;
+    --light-98: #fbfbfb;
+    --light-97: #f8f9f9;
     --light: #fafbfb;
     --light2: #f5f6f7;
 }
@@ -50,7 +52,7 @@ a:hover {
     }
 
     .header {
-        background: white;
+        background: var(--light-98);
         padding: 20px 0;
     }
 
@@ -127,7 +129,7 @@ a:hover {
 
 
     .header {
-        background: white;
+        background: var(--light-98);
         padding: 20px 0;
     }
 
@@ -209,7 +211,7 @@ a:hover {
     }
 
     .header {
-        background: white;
+        background: var(--light-98);
         padding: 20px 0;
     }
 
@@ -288,7 +290,7 @@ a:hover {
     }
 
     .header {
-        background: white;
+        background: var(--light-98);
         padding: 20px 0;
     }
 
@@ -369,7 +371,7 @@ a:hover {
     }
 
     .header {
-        background: white;
+        background: var(--light-98);
         padding: 40px 0;
     }
 

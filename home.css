@@ -13,6 +13,7 @@
 
     .hello-section {
         padding: 20px 0;
+        background: var(--light-98);
     }
 
     .hello-container {
@@ -56,7 +57,7 @@
 
     .projects-section {
         padding: 20px 0;
-        background: var(--light);
+        background: var(--light-97);
     }
 
     .projects-section-heading {
@@ -109,6 +110,7 @@
 
     .hello-section {
         padding: 20px 0;
+        background: var(--light-98);
     }
 
     .hello-container {
@@ -152,7 +154,7 @@
 
     .projects-section {
         padding: 20px 0;
-        background: var(--light);
+        background: var(--light-97);
     }
 
     .projects-section-heading {
@@ -208,6 +210,7 @@
 
     .hello-section {
         padding: 90px 0;
+        background: var(--light-98);
     }
 
     .hello-container {
@@ -254,7 +257,7 @@
 
     .projects-section {
         padding: 50px 0;
-        background: var(--light);
+        background: var(--light-97);
     }
 
     .projects-section-heading {
@@ -307,6 +310,7 @@
 
     .hello-section {
         padding: 100px 0;
+        background: var(--light-98);
     }
 
     .hello-container {
@@ -353,7 +357,7 @@
 
     .projects-section {
         padding: 100px 0;
-        background: var(--light);
+        background: var(--light-97);
     }
 
     .projects-section-heading {
@@ -408,6 +412,7 @@
 
     .hello-section {
         padding: 100px 0;
+        background: var(--light-98);
     }
 
     .hello-container {
@@ -454,7 +459,7 @@
 
     .projects-section {
         padding: 100px 0;
-        background: var(--light);
+        background: var(--light-97);
     }
 
     .projects-section-heading {
