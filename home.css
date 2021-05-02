@@ -32,21 +32,18 @@
     }
 
     .hello-greeting {
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 30px;
         color: var(--dark);
     }
 
     .hello-text {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 16px;
         line-height: 30px;
         color: var(--dark);
     }
 
     .hello-link {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 16px;
         line-height: 30px;
         color: var(--blue);
@@ -64,7 +61,6 @@
 
     .projects-section-heading {
         text-align: center;
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 24px;
         color: var(--dark);
@@ -93,14 +89,12 @@
     }
 
     .project-title {
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 22px;
         padding: 5px 0;
     }
 
     .project-description {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 14px;
     }
 
@@ -134,21 +128,18 @@
     }
 
     .hello-greeting {
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 40px;
         color: var(--dark);
     }
 
     .hello-text {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 18px;
         line-height: 30px;
         color: var(--dark);
     }
 
     .hello-link {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 16px;
         line-height: 30px;
         color: var(--blue);
@@ -166,7 +157,6 @@
 
     .projects-section-heading {
         text-align: center;
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 34px;
         color: var(--dark);
@@ -196,14 +186,12 @@
     }
 
     .project-title {
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 28px;
         padding: 10px 0;
     }
 
     .project-description {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 18px;
     }
 
@@ -242,21 +230,18 @@
     }
 
     .hello-greeting {
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 48px;
         color: var(--dark);
     }
 
     .hello-text {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 20px;
         line-height: 35px;
         color: var(--dark);
     }
 
     .hello-link {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 20px;
         line-height: 35px;
         color: var(--blue);
@@ -274,7 +259,6 @@
 
     .projects-section-heading {
         text-align: center;
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 36px;
         color: var(--dark);
@@ -303,14 +287,12 @@
     }
 
     .project-title {
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 30px;
         padding: 10px 0;
     }
 
     .project-description {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 20px;
     }
 
@@ -347,21 +329,18 @@
     }
 
     .hello-greeting {
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 48px;
         color: var(--dark);
     }
 
     .hello-text {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 20px;
         line-height: 35px;
         color: var(--dark);
     }
 
     .hello-link {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 20px;
         line-height: 35px;
         color: var(--blue);
@@ -379,7 +358,6 @@
 
     .projects-section-heading {
         text-align: center;
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 36px;
         color: var(--dark);
@@ -408,14 +386,12 @@
     }
 
     .project-title {
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 30px;
         padding: 10px 0;
     }
 
     .project-description {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 20px;
     }
 
@@ -454,21 +430,18 @@
     }
 
     .hello-greeting {
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 64px;
         color: var(--dark);
     }
 
     .hello-text {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 28px;
         line-height: 35px;
         color: var(--dark);
     }
 
     .hello-link {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 20px;
         line-height: 35px;
         color: var(--blue);
@@ -486,7 +459,6 @@
 
     .projects-section-heading {
         text-align: center;
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 48px;
         color: var(--dark);
@@ -515,14 +487,12 @@
     }
 
     .project-title {
-        font-family: 'DM Sans', 'sans-serif';
         font-weight: 700;
         font-size: 36px;
         padding: 10px 0;
     }
 
     .project-description {
-        font-family: 'Poppins', 'sans-serif';
         font-size: 24px;
     }
 
