@@ -1,6 +1,26 @@
 :root{
     --blue: #2196f3;
     --dark: #203446;
+    --grey-5: #2b3e4f;
+    --grey-10: #364859;
+    --grey-15: #415262;
+    --grey-20: #4d5d6b;
+    --grey-25: #586774;
+    --grey-30: #63717e;
+    --grey-35: #6e7b87;
+    --grey-40: #798590;
+    --grey-45: #848f99;
+    --grey-50: #909aa3;
+    --grey-55: #9ba4ac;
+    --grey-60: #a6aeb5;
+    --grey-65: #b1b8be;
+    --grey-70: #bcc2c8;
+    --grey-75: #c7ccd1;
+    --grey-80: #d2d6da;
+    --grey-85: #dee1e3;
+    --grey-90: #e9ebed;
+    --grey-95: #f4f5f6;
+    --white: #ffffff;
     --light: #fafbfb;
     --light2: #f5f6f7;
 }
@@ -53,13 +73,12 @@ a:hover {
     .navigation-item {
         margin: 20px;
         font-size: 16px;
-        color: var(--dark);
+        color: var(--grey-40);
         cursor: pointer;
     }
 
     .navigation-item:hover {
-        border-bottom: 10px solid var(--blue);
-        height: 1.5em;
+        color: var(--dark);
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
@@ -67,8 +86,7 @@ a:hover {
         margin: 20px;
         font-size: 16px;
         color: var(--dark);
-        border-bottom: 10px solid var(--blue);
-        height: 1.5em;
+        border-bottom: 1px solid var(--dark);
         cursor: pointer;
     }
 
@@ -133,23 +151,21 @@ a:hover {
 
     .navigation-item {
         margin: 20px;
-        font-size: 18px;
-        color: var(--dark);
+        font-size: 16px;
+        color: var(--grey-40);
         cursor: pointer;
     }
 
     .navigation-item:hover {
-        border-bottom: 10px solid var(--blue);
-        height: 1.5em;
+        color: var(--dark);
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
     .navigation-item-selected {
         margin: 20px;
-        font-size: 18px;
+        font-size: 16px;
         color: var(--dark);
-        border-bottom: 10px solid var(--blue);
-        height: 1.5em;
+        border-bottom: 1px solid var(--dark);
         cursor: pointer;
     }
 
@@ -215,23 +231,21 @@ a:hover {
 
     .navigation-item {
         margin: 20px;
-        font-size: 20px;
-        color: var(--dark);
+        font-size: 16px;
+        color: var(--grey-40);
         cursor: pointer;
     }
 
     .navigation-item:hover {
-        border-bottom: 13px solid var(--blue);
-        height: 1.5em;
+        color: var(--dark);
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
     .navigation-item-selected {
         margin: 20px;
-        font-size: 20px;
+        font-size: 16px;
         color: var(--dark);
-        border-bottom: 13px solid var(--blue);
-        height: 1.5em;
+        border-bottom: 1px solid var(--dark);
         cursor: pointer;
     }
 
@@ -296,23 +310,21 @@ a:hover {
 
     .navigation-item {
         margin: 20px;
-        font-size: 20px;
-        color: var(--dark);
+        font-size: 16px;
+        color: var(--grey-40);
         cursor: pointer;
     }
 
     .navigation-item:hover {
-        border-bottom: 13px solid var(--blue);
-        height: 1.5em;
+        color: var(--dark);
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
     .navigation-item-selected {
         margin: 20px;
-        font-size: 20px;
+        font-size: 16px;
         color: var(--dark);
-        border-bottom: 13px solid var(--blue);
-        height: 1.5em;
+        border-bottom: 1px solid var(--dark);
         cursor: pointer;
     }
 
@@ -379,23 +391,21 @@ a:hover {
 
     .navigation-item {
         margin: 20px;
-        font-size: 24px;
-        color: var(--dark);
+        font-size: 18px;
+        color: var(--grey-40);
         cursor: pointer;
     }
 
     .navigation-item:hover {
-        border-bottom: 13px solid var(--blue);
-        height: 1.5em;
+        color: var(--dark);
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
     .navigation-item-selected {
         margin: 20px;
-        font-size: 24px;
+        font-size: 18px;
         color: var(--dark);
-        border-bottom: 13px solid var(--blue);
-        height: 1.5em;
+        border-bottom: 1px solid var(--dark);
         cursor: pointer;
     }
 
