@@ -5,6 +5,16 @@
     --light2: #f5f6f7;
     --themignightsub-accent: #FF644E;
     --easyglance-background: #fcf3d9;
+    --themidnightsub-background: #ff8471;
+    --themidnightsub-background-5: #ff8a78 ;
+}
+
+.white {
+    color: var(--white);
+}
+
+.background-light-97 {
+    background: var(--light-97);
 }
 
 .themidnightsub-accent {
@@ -12,7 +22,11 @@
 }
 
 .themidnightsub-background {
-    background: var(--themignightsub-accent);
+    background: var(--themidnightsub-background);
+}
+
+.themidnightsub-background-5 {
+    background: var(--themidnightsub-background-5);
 }
 
 .dark-background {
