@@ -26,7 +26,7 @@
         width: 100%;
         padding: 20px;
         background: var(--light2);
-        border-radius: 10px;
+        border-radius: 4px;
         margin: 20px 0;
     }
 
@@ -50,21 +50,24 @@
 
     .user-persona-highlights {
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
+        font-weight: 500;
     }
 
     .user-persona-description {
-        font-size: 16px;
+        font-size: 14px;
         padding: 20px 0;
+        color: var(--grey-20);
     }
 
     .user-pain-point-heading {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 600;
     }
 
     .user-pain-point-description {
-        font-size: 16px;
+        font-size: 14px;
+        color: var(--grey-20);
     }
 
     .user-needs-container {
@@ -74,14 +77,15 @@
 
     .user-need-number {
         text-align: center;
-        font-weight: 500;
-        font-size: 24px;
+        font-weight: 800;
+        font-size: 20px;
     }
 
     .user-need-text {
-        font-size: 16px;
+        font-size: 14px;
         padding: 20px 0;
         text-align: center;
+        color: var(--grey-20);
     }
 
     .table-custom {
@@ -143,7 +147,7 @@
         width: 100%;
         padding: 20px;
         background: var(--light2);
-        border-radius: 15px;
+        border-radius: 6px;
         margin: 20px 0;
         display: flex;
         align-items: center;
@@ -169,21 +173,24 @@
     }
 
     .user-persona-highlights {
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 500;
     }
 
     .user-persona-description {
-        font-size: 16px;
+        font-size: 15px;
         padding: 20px 0;
+        color: var(--grey-20);
     }
 
     .user-pain-point-heading {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 600;
     }
 
     .user-pain-point-description {
-        font-size: 16px;
+        font-size: 15px;
+        color: var(--grey-20);
     }
 
     .user-need {
@@ -191,7 +198,15 @@
         padding: 10px;
         background: var(--light2);
         margin: 10px;
-        border-radius: 20px;
+        border-radius: 6px;
+    }
+
+    .user-need-left {
+        margin-left: 0 !important;
+    }
+
+    .user-need-right {
+        margin-right: 0 !important;
     }
 
     .user-needs-container {
@@ -200,14 +215,15 @@
 
     .user-need-number {
         text-align: center;
-        font-weight: 500;
-        font-size: 24px;
+        font-weight: 800;
+        font-size: 22px;
     }
 
     .user-need-text {
-        font-size: 16px;
+        font-size: 15px;
         padding: 20px 0;
         text-align: center;
+        color: var(--grey-20);
     }
 
 
@@ -273,7 +289,7 @@
         padding: 20px;
         background: var(--light2);
         margin: 20px;
-        border-radius: 20px;
+        border-radius: 6px;
     }
 
     .user-persona-image-container {
@@ -297,11 +313,13 @@
     .user-persona-highlights {
         text-align: center;
         font-size: 16px;
+        font-weight: 500;
     }
 
     .user-persona-description {
         font-size: 16px;
         padding: 20px 0;
+        color: var(--grey-20);
     }
 
     .user-pain-point-heading {
@@ -311,6 +329,15 @@
 
     .user-pain-point-description {
         font-size: 16px;
+        color: var(--grey-20);
+    }
+
+    .user-need-left {
+        margin-left: 0 !important;
+    }
+
+    .user-need-right {
+        margin-right: 0 !important;
     }
 
     .user-needs-container {
@@ -320,7 +347,7 @@
 
     .user-need-number {
         text-align: center;
-        font-weight: 500;
+        font-weight: 800;
         font-size: 24px;
     }
 
@@ -328,6 +355,7 @@
         font-size: 16px;
         padding: 20px 0;
         text-align: center;
+        color: var(--grey-20);
     }
 
     .table-custom {
@@ -387,7 +415,7 @@
         padding: 20px;
         background: var(--light2);
         margin: 20px;
-        border-radius: 20px;
+        border-radius: 6px;
     }
 
     .user-persona-image-container {
@@ -411,11 +439,13 @@
     .user-persona-highlights {
         text-align: center;
         font-size: 16px;
+        font-weight: 500;
     }
 
     .user-persona-description {
         font-size: 16px;
         padding: 20px 0;
+        color: var(--grey-20);
     }
 
     .user-pain-point-heading {
@@ -425,7 +455,17 @@
 
     .user-pain-point-description {
         font-size: 16px;
+        color: var(--grey-20);
     }
+
+    .user-need-left {
+        margin-left: 0 !important;
+    }
+
+    .user-need-right {
+        margin-right: 0 !important;
+    }
+
 
     .user-needs-container {
         display: flex;
@@ -434,7 +474,7 @@
 
     .user-need-number {
         text-align: center;
-        font-weight: 500;
+        font-weight: 800;
         font-size: 24px;
     }
 
@@ -442,6 +482,7 @@
         font-size: 16px;
         padding: 20px 0;
         text-align: center;
+        color: var(--grey-20);
     }
 
     .table-custom {
@@ -501,7 +542,7 @@
         padding: 20px;
         background: var(--light2);
         margin: 20px;
-        border-radius: 20px;
+        border-radius: 8px;
     }
 
     .user-persona-image-container {
@@ -524,21 +565,32 @@
 
     .user-persona-highlights {
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
+        font-weight: 500;
     }
 
     .user-persona-description {
-        font-size: 20px;
+        font-size: 18px;
         padding: 20px 0;
+        color: var(--grey-20);
     }
 
     .user-pain-point-heading {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
     }
 
     .user-pain-point-description {
-        font-size: 20px;
+        font-size: 18px;
+        color: var(--grey-20);
+    }
+
+    .user-need-left {
+        margin-left: 0 !important;
+    }
+
+    .user-need-right {
+        margin-right: 0 !important;
     }
 
     .user-needs-container {
@@ -549,14 +601,15 @@
 
     .user-need-number {
         text-align: center;
-        font-weight: 500;
+        font-weight: 800;
         font-size: 28px;
     }
 
     .user-need-text {
-        font-size: 20px;
+        font-size: 18px;
         padding: 20px 0;
         text-align: center;
+        color: var(--grey-20);
     }
 
     .table-custom {
