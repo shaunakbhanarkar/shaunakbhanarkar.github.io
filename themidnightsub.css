@@ -9,13 +9,7 @@
     --themidnightsub-background-5: #ff8a78 ;
 }
 
-.white {
-    color: var(--white);
-}
 
-.background-light-97 {
-    background: var(--light-97);
-}
 
 .themidnightsub-accent {
     color: var(--themignightsub-accent);
