@@ -1,0 +1,261 @@
+
+/*mobile breakpoint*/
+@media (max-width: 499px) {
+
+    .categories {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .categories-row {
+        display: block;
+        width: 100%;
+    }
+
+    .category-container {
+        width: 100%;
+        margin: 15px 0;
+        background: var(--light2);
+        border-radius: 4px;
+        padding: 15px;
+    }
+
+    .category-number {
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .category-title {
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .category-extreme-left {
+        margin-left: 0 !important;
+    }
+
+    .category-extreme-right {
+        margin-right: 0 !important;
+    }
+
+    .category-left {
+        margin-left: 0 !important;
+    }
+
+    .category-right {
+        margin-right: 0 !important;
+    }
+
+    ul {
+        padding-left: 20px !important;
+    }
+
+}
+
+/*tablet breakpoint*/
+@media (min-width: 500px) and (max-width: 799px) {
+
+    .categories {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .categories-row {
+        display: flex;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .category-container {
+        width: 50%;
+        margin: 0 10px;
+        background: var(--light2);
+        border-radius: 6px;
+        padding: 15px;
+    }
+
+    .category-number {
+        font-weight: 800;
+        font-size: 22px;
+    }
+
+    .category-title {
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .category-extreme-left {
+        margin-left: 0 !important;
+    }
+
+    .category-extreme-right {
+        margin-right: 0 !important;
+    }
+
+    .category-left {
+        margin-left: 0 !important;
+    }
+
+    .category-right {
+        margin-right: 0 !important;
+    }
+
+    ul {
+        padding-left: 20px !important;
+    }
+
+}
+
+
+/*large tablet breakpoint*/
+@media (min-width: 800px) and (max-width: 1099px) {
+
+    .categories {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .categories-row {
+        display: flex;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .category-container {
+        width: 50%;
+        margin: 0 10px;
+        background: var(--light2);
+        border-radius: 6px;
+        padding: 15px;
+    }
+
+    .category-number {
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    .category-title {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .category-extreme-left {
+        margin-left: 0 !important;
+    }
+
+    .category-extreme-right {
+        margin-right: 0 !important;
+    }
+
+    .category-left {
+        margin-left: 0 !important;
+    }
+
+    .category-right {
+        margin-right: 0 !important;
+    }
+
+    ul {
+        padding-left: 20px !important;
+    }
+
+
+}
+
+
+
+
+
+/*desktop breakpoint*/
+@media (min-width: 1100px) and (max-width: 1499px) {
+
+    .categories {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .categories-row {
+        display: flex;
+        width: 50%;
+    }
+
+    .category-container {
+        width: 50%;
+        margin: 0 10px;
+        background: var(--light2);
+        border-radius: 6px;
+        padding: 15px;
+    }
+
+    .category-number {
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    .category-title {
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .category-extreme-left {
+        margin-left: 0 !important;
+    }
+
+    .category-extreme-right {
+        margin-right: 0 !important;
+    }
+
+    ul {
+        padding-left: 20px !important;
+    }
+
+}
+
+/*large desktop breakpoint*/
+@media (min-width: 1500px) {
+
+    .categories {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .categories-row {
+        display: flex;
+        width: 50%;
+    }
+
+    .category-container {
+        width: 50%;
+        margin: 0 10px;
+        background: var(--light2);
+        border-radius: 8px;
+        padding: 18px;
+    }
+
+    .category-number {
+        font-weight: 800;
+        font-size: 28px;
+    }
+
+    .category-title {
+        font-weight: 500;
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .category-extreme-left {
+        margin-left: 0 !important;
+    }
+
+    .category-extreme-right {
+        margin-right: 0 !important;
+    }
+
+    ul {
+        padding-left: 20px !important;
+    }
+
+}
