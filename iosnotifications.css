@@ -1,8 +1,25 @@
+:root {
+    --ios-accent: #AD8CFF;
+    --ios-background: #AAADFF;
+}
+
+.ios-accent {
+    color: var(--ios-accent);
+}
+
+.ios-background {
+    background: var(--ios-background);
+}
 
 .android-display-image {
     width: 100%;
     border-radius: 4px;
 }
+
+.ios-wireframe-image {
+    width: 100%;
+}
+
 
 /*mobile breakpoint*/
 @media (max-width: 499px) {
@@ -75,6 +92,16 @@
     .android-display-title {
         font-weight: 500;
         font-size: 16px;
+    }
+
+    .ios-wireframe-row {
+        display: block;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .ios-wireframe-container {
+        margin: 20px 10px;
     }
 
 }
@@ -150,6 +177,16 @@
         font-weight: 500;
         font-size: 18px;
         margin: 5px 0;
+    }
+
+    .ios-wireframe-row {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .ios-wireframe-container {
+        margin: 0 10px;
     }
 
 
@@ -228,6 +265,16 @@
         margin: 10px 0;
     }
 
+    .ios-wireframe-row {
+        display: flex;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .ios-wireframe-container {
+        margin: 0 20px;
+    }
+
 
 }
 
@@ -299,6 +346,16 @@
         margin: 10px 0;
     }
 
+    .ios-wireframe-row {
+        display: flex;
+        align-items: center;
+        margin: 60px 0;
+    }
+
+    .ios-wireframe-container {
+        margin: 0 20px;
+    }
+
 }
 
 /*large desktop breakpoint*/
@@ -363,6 +420,16 @@
         font-weight: 500;
         font-size: 22px;
         margin: 10px 0;
+    }
+
+    .ios-wireframe-row {
+        display: flex;
+        align-items: center;
+        margin: 80px 0;
+    }
+
+    .ios-wireframe-container {
+        margin: 0 20px;
     }
 
 }
