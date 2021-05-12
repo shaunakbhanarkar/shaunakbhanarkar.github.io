@@ -1,6 +1,8 @@
 :root {
-    --ios-accent: #AD8CFF;
-    --ios-background: #AAADFF;
+    /*--ios-accent: #AD8CFF;*/
+    --ios-accent: #4378CD;
+    /*--ios-background: #AAADFF;*/
+    --ios-background: #6AA3FF;
 }
 
 .ios-accent {
