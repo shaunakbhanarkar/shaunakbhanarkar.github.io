@@ -2,7 +2,8 @@
     /*--ios-accent: #AD8CFF;*/
     --ios-accent: #4378CD;
     /*--ios-background: #AAADFF;*/
-    --ios-background: #6AA3FF;
+    /*--ios-background: #6AA3FF;*/
+    --ios-background: #3B5A8D;
 }
 
 .ios-accent {
@@ -12,6 +13,7 @@
 .ios-background {
     background: var(--ios-background);
 }
+
 
 .android-display-image {
     width: 100%;

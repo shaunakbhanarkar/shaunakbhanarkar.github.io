@@ -14,9 +14,17 @@
     background: var(--light-97) !important;
 }
 
+.hero-image {
+    width: 100%;
+}
+
 /*mobile breakpoint*/
 @media (max-width: 499px ) {
 
+
+    .hero-section {
+        padding: 40px 0;
+    }
 
 
     .header-image-section {
@@ -139,6 +147,9 @@
 @media (min-width: 500px ) and (max-width: 799px) {
 
 
+    .hero-section {
+        padding: 50px 0;
+    }
 
     .header-image-section {
         padding: 20px 0;
@@ -267,6 +278,9 @@
 /*large tablet breakpoint*/
 @media (min-width: 800px ) and (max-width: 1099px) {
 
+    .hero-section {
+        padding: 50px 0;
+    }
 
 
     .header-image-section {
@@ -394,6 +408,9 @@
 /*desktop breakpoint*/
 @media (min-width: 1100px ) and (max-width: 1499px) {
 
+    .hero-section {
+        padding: 60px 0;
+    }
 
 
     .header-image-section {
@@ -523,6 +540,9 @@
 @media (min-width: 1500px ) {
 
 
+    .hero-section {
+        padding: 60px 0;
+    }
 
     .header-image-section {
         padding: 40px 0;
