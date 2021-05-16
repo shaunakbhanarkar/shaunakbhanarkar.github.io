@@ -9,6 +9,9 @@
     --themidnightsub-background-5: #ff8a78 ;
 }
 
+.themidnightsub-hero-background {
+    background: linear-gradient(0deg, var(--light-98) 20%, var(--themidnightsub-background) 20%);
+}
 
 
 .themidnightsub-accent {
