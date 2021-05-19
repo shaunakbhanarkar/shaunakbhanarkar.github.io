@@ -1,0 +1,69 @@
+:root {
+    --ujala-background: #2196f3;
+}
+
+
+.ujala-background {
+    background: var(--ujala-background);
+}
+
+
+
+
+
+
+
+/*mobile breakpoint*/
+@media (max-width: 499px) {
+
+
+    .ujala-hero-section {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+}
+
+/*tablet breakpoint*/
+@media (min-width: 500px) and (max-width: 799px) {
+
+    .ujala-hero-section {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+}
+
+
+/*large tablet breakpoint*/
+@media (min-width: 800px) and (max-width: 1099px) {
+
+
+    .ujala-hero-section {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+}
+
+
+
+/*desktop breakpoint*/
+@media (min-width: 1100px) and (max-width: 1499px) {
+
+    .ujala-hero-section {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+}
+
+/*large desktop breakpoint*/
+@media (min-width: 1500px) {
+
+    .ujala-hero-section {
+        padding-top: 60px;
+    }
+
+
+}
