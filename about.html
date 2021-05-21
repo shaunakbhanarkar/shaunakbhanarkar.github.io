@@ -2,24 +2,22 @@
 <html lang="en">
 <head>
     <!--    bootstrap-->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+    <!--    material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
 
     <!--    styling-->
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="about.css">
 
     <!--    font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <title>Shaunak's Portfolio</title>
 </head>
@@ -27,14 +25,37 @@
 
 
 <body>
-    <div class="header">
-        <div class="logo">sb.</div>
-        <div class="navigation">
-            <a href="index.html"><div class="navigation-item">Work</div></a>
-            <a href="about.html"><div class="navigation-item-selected">About</div></a>
-            <a href="https://drive.google.com/" target="_blank"><div class="navigation-item">Resume</div></a>
+
+
+    <section class="header">
+        <div class="container">
+            <div class="header-container">
+                <a href="index.html">
+                    <div class="logo">sb.</div>
+                </a>
+                <div class="navigation">
+                    <a href="index.html"><div class="navigation-item">Work</div></a>
+                    <a><div class="navigation-item-selected">About</div></a>
+                    <a><div class="navigation-item" style="cursor:not-allowed;">Resume</div></a>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+
+    <section class="about-hero-section">
+        <div class="container">
+            <img src="images/about-me-image-1600.png"
+                 srcset="
+                             images/about-me-image-640.png 640w,
+                             images/about-me-image-800.png 800w,
+                             images/about-me-image-1200.png 1200w,
+                             images/about-me-image-1600.png 1600w,
+                             images/about-me-image-2400.png 2400w"
+                 sizes="100vw"
+                 class="about-hero-image" >
+        </div>
+    </section>
 
 
 
