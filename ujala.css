@@ -8,7 +8,9 @@
     background: var(--ujala-background);
 }
 
-
+.ujala-map-view-image {
+    width: 100%;
+}
 
 
 
@@ -30,6 +32,19 @@
         margin-top: 20px;
     }
 
+    .map-view-container {
+        display: block;
+    }
+
+    .map-view-text-container {
+        width: 100%;
+    }
+
+    .map-view-image-container {
+        width: 100%;
+        margin-top: 20px;
+    }
+
 }
 
 /*tablet breakpoint*/
@@ -45,6 +60,19 @@
         border-radius: 6px;
         background: var(--ujala-image-background);
         margin-top: 20px;
+    }
+
+    .map-view-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .map-view-text-container {
+        width: 50%;
+    }
+
+    .map-view-image-container {
+        width: 50%;
     }
 
 }
@@ -66,6 +94,19 @@
         margin-top: 30px;
     }
 
+    .map-view-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .map-view-text-container {
+        width: 50%;
+    }
+
+    .map-view-image-container {
+        width: 50%;
+    }
+
 }
 
 
@@ -85,6 +126,20 @@
         margin-top: 40px;
     }
 
+    .map-view-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .map-view-text-container {
+        width: 50%;
+    }
+
+    .map-view-image-container {
+        width: 50%;
+    }
+
+
 }
 
 /*large desktop breakpoint*/
@@ -99,6 +154,19 @@
         border-radius: 8px;
         background: var(--ujala-image-background);
         margin-top: 40px;
+    }
+
+    .map-view-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .map-view-text-container {
+        width: 50%;
+    }
+
+    .map-view-image-container {
+        width: 50%;
     }
 
 }
