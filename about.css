@@ -59,6 +59,11 @@
         margin-top: 10px;
     }
 
+    .articles-container {
+        display: block;
+        padding: 20px 0;
+    }
+
 
 }
 
@@ -119,6 +124,10 @@
         margin-left: 20px;
     }
 
+    .articles-container {
+        display: flex;
+        padding: 40px 0;
+    }
 
 }
 
@@ -178,6 +187,11 @@
 
     .food-image-right {
         margin-left: 20px;
+    }
+
+    .articles-container {
+        display: flex;
+        padding: 40px 0;
     }
 
 
@@ -243,6 +257,11 @@
     }
 
 
+    .articles-container {
+        display: flex;
+        padding: 40px 0;
+    }
+
 }
 
 
@@ -303,6 +322,11 @@
 
     .food-image-right {
         margin-left: 20px;
+    }
+
+    .articles-container {
+        display: flex;
+        padding: 40px 0;
     }
 
 
