@@ -43,6 +43,20 @@ a:hover {
     text-decoration: none;
 }
 
+
+
+
+.social-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    padding: 20px;
+}
+
+
 /*mobile breakpoint*/
 @media (max-width: 499px ) {
 
@@ -98,22 +112,26 @@ a:hover {
         background: var(--light2);
     }
 
-    .social-links-container {
-        display: block;
+    .footer-heading {
+        text-align: center;
+        font-weight: 800;
+        font-size: 16px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
     }
 
-    .social-link {
+    .footer-mail {
         text-align: center;
-        font-size: 16px;
+        margin: 20px 0;
+        font-size: 14px;
+        line-height: 24px;
         color: var(--dark);
-        padding: 20px;
     }
 
     .copyright-statement {
         text-align: center;
         font-size: 14px;
-        font-weight: 500;
-        color: var(--dark);
+        color: var(--grey-55);
         padding: 20px;
     }
 }
@@ -178,23 +196,27 @@ a:hover {
         background: var(--light2);
     }
 
-    .social-links-container {
-        display: flex;
-        justify-content: center;
+    .footer-heading {
+        text-align: center;
+        font-weight: 800;
+        font-size: 17px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
     }
 
-    .social-link {
+    .footer-mail {
         text-align: center;
-        font-size: 18px;
+        margin: 20px 0;
+        font-size: 15px;
+        line-height: 25px;
         color: var(--dark);
-        padding: 20px;
     }
+
 
     .copyright-statement {
         text-align: center;
-        font-size: 18px;
-        font-weight: 500;
-        color: var(--dark);
+        font-size: 15px;
+        color: var(--grey-55);
         padding: 20px;
     }
 
@@ -258,23 +280,28 @@ a:hover {
         background: var(--light2);
     }
 
-    .social-links-container {
-        display: flex;
-        justify-content: center;
+
+    .footer-heading {
+        text-align: center;
+        font-weight: 800;
+        font-size: 18px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
     }
 
-    .social-link {
+    .footer-mail {
         text-align: center;
-        font-size: 18px;
+        margin: 20px 0;
+        font-size: 16px;
+        line-height: 28px;
         color: var(--dark);
-        padding: 20px;
     }
+
 
     .copyright-statement {
         text-align: center;
-        font-size: 18px;
-        font-weight: 500;
-        color: var(--dark);
+        font-size: 16px;
+        color: var(--grey-55);
         padding: 20px;
     }
 
@@ -337,23 +364,28 @@ a:hover {
         background: var(--light2);
     }
 
-    .social-links-container {
-        display: flex;
-        justify-content: center;
+
+    .footer-heading {
+        text-align: center;
+        font-weight: 800;
+        font-size: 18px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
     }
 
-    .social-link {
+    .footer-mail {
         text-align: center;
-        font-size: 18px;
+        margin: 20px 0;
+        font-size: 16px;
+        line-height: 28px;
         color: var(--dark);
-        padding: 20px;
     }
+
 
     .copyright-statement {
         text-align: center;
-        font-size: 18px;
-        font-weight: 500;
-        color: var(--dark);
+        font-size: 16px;
+        color: var(--grey-55);
         padding: 20px;
     }
 
@@ -417,23 +449,27 @@ a:hover {
         background: var(--light2);
     }
 
-    .social-links-container {
-        display: flex;
-        justify-content: center;
+    .footer-heading {
+        text-align: center;
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
     }
 
-    .social-link {
+    .footer-mail {
         text-align: center;
-        font-size: 24px;
+        margin: 20px 0;
+        font-size: 18px;
+        line-height: 30px;
         color: var(--dark);
-        padding: 20px;
     }
+
 
     .copyright-statement {
         text-align: center;
-        font-size: 24px;
-        font-weight: 500;
-        color: var(--dark);
+        font-size: 18px;
+        color: var(--grey-55);
         padding: 20px;
     }
 
