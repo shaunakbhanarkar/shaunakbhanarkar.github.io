@@ -600,6 +600,35 @@
         padding: 15px 0;
     }
 
+    .more-projects-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .more-projects-item {
+        width: auto;
+        padding: 0 10px;
+    }
+
+    .more-projects-image {
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    .more-projects-title {
+        font-weight: 500;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .more-projects-item-left {
+        padding-left: 0 !important;
+    }
+
+    .more-projects-item-right {
+        padding-right: 0 !important;
+    }
+
 
 }
 
