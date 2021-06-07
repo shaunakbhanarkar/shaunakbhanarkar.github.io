@@ -199,6 +199,13 @@
         padding-bottom: 0 !important;
     }
 
+    .thanks-for-reading-text {
+        font-family: 'Dancing Script' , cursive;
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
 
 }
 
@@ -379,6 +386,12 @@
         padding-right: 0 !important;
     }
 
+    .thanks-for-reading-text {
+        font-family: 'Dancing Script' , cursive;
+        font-size: 36px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
 
 }
 
@@ -555,6 +568,13 @@
 
     .more-projects-item-right {
         padding-right: 0 !important;
+    }
+
+    .thanks-for-reading-text {
+        font-family: 'Dancing Script' , cursive;
+        font-size: 48px;
+        text-align: center;
+        padding-bottom: 40px;
     }
 
 
@@ -735,6 +755,13 @@
         padding-right: 0 !important;
     }
 
+    .thanks-for-reading-text {
+        font-family: 'Dancing Script' , cursive;
+        font-size: 48px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
 
 }
 
@@ -913,4 +940,12 @@
     .more-projects-item-right {
         padding-right: 0 !important;
     }
+
+    .thanks-for-reading-text {
+        font-family: 'Dancing Script' , cursive;
+        font-size: 56px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
 }
