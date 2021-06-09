@@ -79,8 +79,9 @@ a:hover {
     .logo {
         text-align: center;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 28px;
         color: var(--dark);
+        font-family: 'Megrim', cursive;
     }
 
     .navigation {
@@ -164,6 +165,7 @@ a:hover {
         font-weight: 700;
         font-size: 30px;
         color: var(--dark);
+        font-family: 'Megrim', cursive;
     }
 
     .navigation {
@@ -247,8 +249,9 @@ a:hover {
 
     .logo {
         font-weight: 700;
-        font-size: 40px;
+        font-size: 32px;
         color: var(--dark);
+        font-family: 'Megrim', cursive;
     }
 
     .navigation {
@@ -331,8 +334,9 @@ a:hover {
 
     .logo {
         font-weight: 700;
-        font-size: 40px;
+        font-size: 36px;
         color: var(--dark);
+        font-family: 'Megrim', cursive;
     }
 
     .navigation {
@@ -417,8 +421,9 @@ a:hover {
 
     .logo {
         font-weight: 700;
-        font-size: 50px;
+        font-size: 40px;
         color: var(--dark);
+        font-family: 'Megrim', cursive;
     }
 
     .navigation {
