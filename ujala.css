@@ -43,6 +43,7 @@
     .map-view-image-container {
         width: 100%;
         margin-top: 20px;
+        padding: 0 40px;
     }
 
 }
@@ -68,11 +69,12 @@
     }
 
     .map-view-text-container {
-        width: 50%;
+        width: 70%;
+        padding-right: 40px;
     }
 
     .map-view-image-container {
-        width: 50%;
+        width: 30%;
     }
 
 }
@@ -100,11 +102,12 @@
     }
 
     .map-view-text-container {
-        width: 50%;
+        width: 70%;
+        padding-right: 40px;
     }
 
     .map-view-image-container {
-        width: 50%;
+        width: 30%;
     }
 
 }
@@ -132,11 +135,12 @@
     }
 
     .map-view-text-container {
-        width: 50%;
+        width: 70%;
+        padding-right: 40px;
     }
 
     .map-view-image-container {
-        width: 50%;
+        width: 30%;
     }
 
 
@@ -162,11 +166,12 @@
     }
 
     .map-view-text-container {
-        width: 50%;
+        width: 70%;
+        padding-right: 40px;
     }
 
     .map-view-image-container {
-        width: 50%;
+        width: 30%;
     }
 
 }
