@@ -1,11 +1,16 @@
 :root {
     --ujala-background: #2196f3;
     --ujala-image-background: #f5f5f5;
+    --ujala-accent: #2196f3;
 }
 
 
 .ujala-background {
     background: var(--ujala-background);
+}
+
+.ujala-accent {
+    color: var(--ujala-accent);
 }
 
 .ujala-map-view-image {
