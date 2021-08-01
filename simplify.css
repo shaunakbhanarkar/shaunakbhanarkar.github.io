@@ -1,0 +1,107 @@
+:root {
+    --simplify-accent: #85C202;
+}
+
+.simplify-accent {
+    color: var(--simplify-accent);
+}
+
+.simplify-background {
+    background: var(--simplify-accent);
+}
+
+.simplify-hero-image {
+    border-radius: 6px;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+    margin-top: 60px;
+}
+
+.simplify-image {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    margin-top: 40px;
+}
+
+.simplify-team-image {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.3);
+    margin-top: 40px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.source-link {
+    text-decoration: underline;
+}
+
+.source-link:hover {
+    text-decoration: underline;
+}
+
+/*mobile breakpoint*/
+@media (max-width: 499px) {
+
+    .simplify-hero-image {
+        border-radius: 4px;
+        margin-top: 40px;
+    }
+
+    .simplify-image {
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    .simplify-team-image {
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    figcaption {
+        font-size: 12px;
+    }
+
+
+}
+
+/*tablet breakpoint*/
+@media (min-width: 500px) and (max-width: 799px) {
+
+
+
+}
+
+
+/*large tablet breakpoint*/
+@media (min-width: 800px) and (max-width: 1099px) {
+
+
+
+
+}
+
+
+
+/*desktop breakpoint*/
+@media (min-width: 1100px) and (max-width: 1499px) {
+
+
+
+
+}
+
+/*large desktop breakpoint*/
+@media (min-width: 1500px) {
+
+    figcaption {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+
+}
