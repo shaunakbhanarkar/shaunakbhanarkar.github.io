@@ -7,7 +7,7 @@
 
 
 .white {
-    color: var(--white);
+    color: var(--white) !important;
 }
 
 .background-light-97 {

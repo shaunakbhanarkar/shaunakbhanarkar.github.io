@@ -6,6 +6,7 @@
     --easyglance-accent: #f0c343;
     /*--easyglance-background: #fcf3d9;*/
     --easyglance-background: #ECCD72;
+    --easyglance-highlight: #f7ebc7;
 }
 
 .easyglance-accent {
@@ -14,6 +15,10 @@
 
 .easyglance-background {
     background: var(--easyglance-background);
+}
+
+mark {
+    background: var(--easyglance-highlight);
 }
 
 /*mobile breakpoint*/
