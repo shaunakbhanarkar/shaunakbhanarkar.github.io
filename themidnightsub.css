@@ -7,6 +7,7 @@
     --easyglance-background: #fcf3d9;
     --themidnightsub-background: #ff8471;
     --themidnightsub-background-5: #ff8a78 ;
+    --themidnightsub-highlight: #ffc2b8;
 }
 
 .themidnightsub-hero-background {
@@ -28,6 +29,10 @@
 
 .dark-background {
     background: var(--dark);
+}
+
+mark {
+    background: var(--themidnightsub-highlight);
 }
 
 .audience-illustrations-row {
