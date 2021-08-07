@@ -1,5 +1,7 @@
 :root {
     --simplify-accent: #85C202;
+    --simplify-background: #85C202;
+    --simplify-highlight: #daedb3;
 }
 
 .simplify-accent {
@@ -7,7 +9,11 @@
 }
 
 .simplify-background {
-    background: var(--simplify-accent);
+    background: var(--simplify-background);
+}
+
+mark {
+    background: var(--simplify-highlight);
 }
 
 .simplify-hero-image {
