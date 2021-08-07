@@ -4,6 +4,7 @@
     /*--ios-background: #AAADFF;*/
     /*--ios-background: #6AA3FF;*/
     --ios-background: #3B5A8D;
+    --ios-highlight: #c4cedd;
 }
 
 .ios-accent {
@@ -12,6 +13,10 @@
 
 .ios-background {
     background: var(--ios-background);
+}
+
+mark {
+    background: var(--ios-highlight);
 }
 
 
