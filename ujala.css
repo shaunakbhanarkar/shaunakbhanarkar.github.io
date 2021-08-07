@@ -2,6 +2,7 @@
     --ujala-background: #2196f3;
     --ujala-image-background: #f5f5f5;
     --ujala-accent: #2196f3;
+    --ujala-highlight: #bce0fb;
 }
 
 
@@ -11,6 +12,10 @@
 
 .ujala-accent {
     color: var(--ujala-accent);
+}
+
+mark {
+    background: var(--ujala-highlight);
 }
 
 .ujala-map-view-image {
