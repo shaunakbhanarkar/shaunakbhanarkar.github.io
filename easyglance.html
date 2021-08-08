@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="project.js" type="text/javascript"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <!--    material icons-->
@@ -28,7 +31,7 @@
 
 
 <body>
-    <section class="header">
+    <section id="header" class="header">
         <div class="container">
             <div class="header-container">
                 <a href="index.html">
@@ -74,6 +77,20 @@
 <!--        </div>-->
 <!--    </section>-->
 
+    <div class="quick-links-container">
+        <div id="nav-background" class="quick-link">Background</div>
+        <div id="nav-problem" class="quick-link">Problem</div>
+        <div id="nav-solution" class="quick-link">Solution</div>
+        <hr>
+        <div id="nav-design-process" class="quick-link">Design Process</div>
+        <div id="nav-research" class="quick-link">Research</div>
+        <div id="nav-conception-and-design" class="quick-link">Conception & Design</div>
+        <div id="nav-testing" class="quick-link">Testing</div>
+        <div id="nav-final-prototype" class="quick-link">Final Prototype</div>
+        <hr>
+        <div id="nav-top" class="quick-link">Back To Top</div>
+    </div>
+
     <section class="content-section">
         <div class="container">
 <!--            <div>Role, Timeline, Tools, Team, type (mobile/web/capstone), prompt/overview</div>-->
@@ -104,7 +121,7 @@
         </div>
     </section>
 
-    <section class="content-section">
+    <section id="background" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">
                 <div>Background</div>
@@ -114,7 +131,7 @@
         </div>
     </section>
 
-    <section class="content-section easyglance-background">
+    <section id="problem" class="content-section easyglance-background">
         <div class="readable-container">
             <div class="content-section-small-heading white">Problem</div>
             <div class="content-section-heading">
@@ -124,7 +141,7 @@
         </div>
     </section>
 
-    <section class="content-section">
+    <section id="solution" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">
                 <div>Solution</div>
@@ -172,7 +189,7 @@
 
 
 
-    <section class="content-section easyglance-background">
+    <section id="design-process" class="content-section easyglance-background">
         <div class="readable-container">
             <div class="content-section-small-heading white">Design Process</div>
             <div class="content-section-heading">
@@ -193,7 +210,7 @@
         </div>
     </section>
 
-    <section class="content-section">
+    <section id="research" class="content-section">
         <div class="readable-container">
             <div class="content-section-small-heading easyglance-accent">User Research</div>
             <div class="content-section-heading">
@@ -371,7 +388,7 @@
         </div>
     </section>
 
-    <section class="content-section easyglance-background">
+    <section id="conception-and-design" class="content-section easyglance-background">
         <div class="readable-container">
             <div class="content-section-small-heading white">Conception & Design</div>
             <div class="content-section-heading">
@@ -444,7 +461,7 @@
         </div>
     </section>
 
-    <section class="content-section easyglance-background">
+    <section id="testing" class="content-section easyglance-background">
         <div class="readable-container">
             <div class="content-section-small-heading white">Testing</div>
             <div class="content-section-heading">
@@ -484,7 +501,7 @@
     </section>
 
 
-    <section class="content-section background-light-97">
+    <section id="final-prototype" class="content-section background-light-97">
         <div class="readable-container">
 
             <div class="content-section-heading">Extras</div>

@@ -21,6 +21,9 @@ mark {
     background: var(--easyglance-highlight);
 }
 
+
+
+
 /*mobile breakpoint*/
 @media (max-width: 499px) {
 
