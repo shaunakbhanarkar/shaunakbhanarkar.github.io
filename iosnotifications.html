@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="project.js" type="text/javascript"></script>
+    <script src="iosnotifications.js" type="text/javascript"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <!--    styling-->
@@ -24,7 +28,7 @@
 
 
 <body>
-    <section class="header">
+    <section id="header" class="header">
         <div class="container">
             <div class="header-container">
                 <a href="index.html">
@@ -59,6 +63,21 @@
         </div>
     </section>
 
+
+    <div class="quick-links-container">
+        <div id="nav-background" class="quick-link">Background</div>
+        <div id="nav-challenge" class="quick-link">Challenge</div>
+        <hr>
+        <div id="nav-user-research" class="quick-link">User Research</div>
+        <div id="nav-competitive-research" class="quick-link">Competitive Research</div>
+        <div id="nav-issues" class="quick-link">Issues</div>
+        <div id="nav-wireframes" class="quick-link">Wireframes</div>
+        <div id="nav-mockups" class="quick-link">Mockups</div>
+        <hr>
+        <div id="nav-top" class="quick-link">Back To Top</div>
+    </div>
+
+
     <section class="content-section">
         <div class="container">
             <!--            <div>Role, Timeline, Tools, Team, type (mobile/web/capstone), prompt/overview</div>-->
@@ -85,7 +104,7 @@
         </div>
     </section>
 
-    <section class="content-section">
+    <section id="background" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">
                 <div>Background</div>
@@ -112,7 +131,7 @@
         </div>
     </section>
 
-    <section class="content-section ios-background">
+    <section id="challenge" class="content-section ios-background">
         <div class="readable-container">
             <div class="content-section-small-heading white">Design Challenge</div>
             <div class="content-section-heading">
@@ -187,7 +206,7 @@
         </div>
     </section>
 
-    <section class="content-section ios-background">
+    <section id="user-research" class="content-section ios-background">
         <div class="readable-container">
             <div class="content-section-small-heading white">User Research</div>
             <div class="content-section-heading">
@@ -255,7 +274,7 @@
         </div>
     </section>
 
-    <section class="content-section" style="background: white;">
+    <section id="competitive-research" class="content-section" style="background: white;">
         <div class="readable-container">
             <div class="content-section-small-heading ios-accent">Competitive Research</div>
             <div class="content-section-heading">
@@ -350,7 +369,7 @@
         </div>
     </section>
 
-    <section class="content-section ios-background">
+    <section id="issues" class="content-section ios-background">
         <div class="readable-container">
             <div class="content-section-small-heading white">Issues</div>
             <div class="content-section-heading">
@@ -455,7 +474,7 @@
         </div>
     </section>
 
-    <section class="content-section background-light-97">
+    <section id="wireframes" class="content-section background-light-97">
         <div class="readable-container">
             <div class="content-section-small-heading ios-accent">Proposed Changes</div>
             <div class="content-section-heading">
@@ -589,7 +608,7 @@
 
     </section>
 
-    <section class="content-section">
+    <section id="mockups" class="content-section">
         <div class="readable-container">
             <div class="content-section-small-heading ios-accent">Mockups</div>
             <div class="content-section-heading">
