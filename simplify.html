@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="project.js" type="text/javascript"></script>
+    <script src="simplify.js" type="text/javascript"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <!--    material icons-->
@@ -28,7 +32,7 @@
 
 
 <body>
-    <section class="header">
+    <section id="header" class="header">
         <div class="container">
             <div class="header-container">
                 <a href="index.html">
@@ -52,6 +56,19 @@
                  class="simplify-hero-image" >
         </div>
     </section>
+
+    <div class="quick-links-container">
+        <div id="nav-background" class="quick-link">Background</div>
+        <div id="nav-problem-statement" class="quick-link">Problem Statement</div>
+        <hr>
+        <div id="nav-leap-motion-controller" class="quick-link">Leap Motion Controller</div>
+        <div id="nav-setup" class="quick-link">Setup</div>
+        <div id="nav-experiment" class="quick-link">Experiment</div>
+        <div id="nav-further-scope" class="quick-link">Further Scope</div>
+        <hr>
+        <div id="nav-top" class="quick-link">Back To Top</div>
+    </div>
+
 
     <section class="content-section">
         <div class="container">
@@ -92,7 +109,7 @@
 <!--        </div>-->
 <!--    </section>-->
 
-    <section class="content-section">
+    <section id="background" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">
                 <div>Background</div>
@@ -102,7 +119,7 @@
         </div>
     </section>
 
-    <section class="content-section simplify-background">
+    <section id="problem-statement" class="content-section simplify-background">
         <div class="readable-container">
             <div class="content-section-small-heading white">Problem Statement</div>
             <div class="content-section-heading">
@@ -123,7 +140,7 @@
 <!--    </section>-->
 
 
-    <section class="content-section">
+    <section id="leap-motion-controller" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">What is Leap Motion Controller?</div>
             <div class="content-section-text">Leap Motion Controller is a sensor based device that <mark>recognises hand gestures and finger motions without any direct contact.</mark> The data captured by the hardware is sent to a computing device via USB, where it is analysed and the output is generated. The technology is fairly accurate in identifying distinct gestures.</div>
@@ -134,14 +151,14 @@
         </div>
     </section>
 
-    <section class="content-section">
+    <section id="setup" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">How did we use it?</div>
             <div class="content-section-text">By taking advantage of Leap Motion Controller's technology, we developed a program on the host device to send the data to Firebase real-time database. On the other end, we programmed a Node MCU chip to operate different LEDs based on the logic in database.</div>
         </div>
     </section>
 
-    <section class="content-section">
+    <section id="experiment" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">What did we achieve?</div>
             <div class="content-section-text">By performing this experiment, we were able to successfully transfer the data captured from Leap Motion Controller to a smart home appliances. Thus, we could effectively <mark>use hand gestures to control the devices almost instantly.</mark></div>
@@ -152,7 +169,7 @@
         </div>
     </section>
 
-    <section class="content-section background-light-97">
+    <section id="further-scope" class="content-section background-light-97">
         <div class="readable-container">
             <div class="content-section-small-heading simplify-accent">Viability</div>
             <div class="content-section-heading">
