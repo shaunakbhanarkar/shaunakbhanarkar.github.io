@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="basic.js" type="text/javascript"></script>
+    <script src="themidnightsub.js" type="text/javascript"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <!--    material icons-->
@@ -28,7 +32,7 @@
 
 
 <body>
-    <section class="header">
+    <section id="header" class="header">
         <div class="container">
             <div class="header-container">
                 <a href="index.html">
@@ -75,6 +79,19 @@
 <!--        </div>-->
 <!--    </section>-->
 
+    <div class="quick-links-container">
+        <div id="nav-brief" class="quick-link">Brief</div>
+        <div id="nav-solution" class="quick-link">Solution</div>
+        <hr>
+        <div id="nav-design-process" class="quick-link">Design Process</div>
+        <div id="nav-market-research" class="quick-link">Market Research</div>
+        <div id="nav-user-research" class="quick-link">User Research</div>
+        <div id="nav-conception-and-design" class="quick-link">Conception & Design</div>
+        <div id="nav-final-prototype" class="quick-link">Final Prototype</div>
+        <hr>
+        <div id="nav-top" class="quick-link">Back To Top</div>
+    </div>
+
     <section class="content-section">
         <div class="container">
             <!--            <div>Role, Timeline, Tools, Team, type (mobile/web/capstone), prompt/overview</div>-->
@@ -103,7 +120,7 @@
         </div>
     </section>
 
-    <section class="content-section">
+    <section id="brief" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">
                 <div>Project Brief</div>
@@ -113,7 +130,7 @@
         </div>
     </section>
 
-    <section class="content-section">
+    <section id="solution" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">
                 <div>Solution</div>
@@ -137,7 +154,7 @@
 
 
 
-    <section class="content-section themidnightsub-background-5">
+    <section id="design-process" class="content-section themidnightsub-background-5">
         <div class="readable-container">
             <div class="content-section-small-heading white">Design Process</div>
             <div class="content-section-heading">
@@ -148,7 +165,7 @@
     </section>
 
 
-    <section class="content-section">
+    <section id="market-research" class="content-section">
         <div class="readable-container">
             <div class="content-section-small-heading themidnightsub-accent">Business</div>
             <div class="content-section-heading">
@@ -232,7 +249,7 @@
         </div>
     </section>
 
-    <section class="content-section themidnightsub-background-5">
+    <section id="user-research" class="content-section themidnightsub-background-5">
         <div class="readable-container">
             <div class="content-section-small-heading white">User Research</div>
             <div class="content-section-heading">
@@ -438,7 +455,7 @@
     </section>
 
 
-    <section class="content-section themidnightsub-background-5">
+    <section id="conception-and-design" class="content-section themidnightsub-background-5">
         <div class="readable-container">
             <div class="content-section-small-heading white">Let's get designing!</div>
             <div class="content-section-heading">
@@ -474,7 +491,7 @@
         </div>
     </section>
 
-    <section class="content-section">
+    <section id="final-prototype" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">Final Design</div>
             <div class="content-section-text">I designed the high fidelity visual mockups using Adobe XD. Taking wireframes as a base, I designed multiple screens of the website including the homepage, lister page, customisation & ordering process, and testimonials page.</div>
