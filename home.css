@@ -13,7 +13,7 @@
 
     .hello-section {
         padding: 20px 0;
-        background: var(--light-98);
+        
     }
 
     .hello-container {
@@ -35,13 +35,13 @@
     .hello-greeting {
         font-weight: 700;
         font-size: 30px;
-        color: var(--dark);
+        
     }
 
     .hello-text {
         font-size: 16px;
         line-height: 30px;
-        color: var(--dark);
+        
     }
 
     .hello-link {
@@ -57,14 +57,14 @@
 
     .projects-section {
         padding: 20px 0;
-        background: var(--light-97);
+        
     }
 
     .projects-section-heading {
         text-align: center;
         font-weight: 700;
         font-size: 24px;
-        color: var(--dark);
+        
     }
 
 
@@ -112,7 +112,7 @@
 
     .hello-section {
         padding: 20px 0;
-        background: var(--light-98);
+        
     }
 
     .hello-container {
@@ -134,13 +134,13 @@
     .hello-greeting {
         font-weight: 700;
         font-size: 40px;
-        color: var(--dark);
+        
     }
 
     .hello-text {
         font-size: 18px;
         line-height: 30px;
-        color: var(--dark);
+        
     }
 
     .hello-link {
@@ -156,14 +156,14 @@
 
     .projects-section {
         padding: 20px 0;
-        background: var(--light-97);
+        
     }
 
     .projects-section-heading {
         text-align: center;
         font-weight: 700;
         font-size: 34px;
-        color: var(--dark);
+        
         padding: 20px 0;
     }
 
@@ -214,7 +214,7 @@
 
     .hello-section {
         padding: 90px 0;
-        background: var(--light-98);
+        
     }
 
     .hello-container {
@@ -239,13 +239,13 @@
     .hello-greeting {
         font-weight: 700;
         font-size: 48px;
-        color: var(--dark);
+        
     }
 
     .hello-text {
         font-size: 20px;
         line-height: 35px;
-        color: var(--dark);
+        
     }
 
     .hello-link {
@@ -261,14 +261,14 @@
 
     .projects-section {
         padding: 50px 0;
-        background: var(--light-97);
+        
     }
 
     .projects-section-heading {
         text-align: center;
         font-weight: 700;
         font-size: 36px;
-        color: var(--dark);
+        
         padding: 20px 0;
     }
 
@@ -316,7 +316,7 @@
 
     .hello-section {
         padding: 100px 0;
-        background: var(--light-98);
+        
     }
 
     .hello-container {
@@ -341,13 +341,13 @@
     .hello-greeting {
         font-weight: 700;
         font-size: 48px;
-        color: var(--dark);
+        
     }
 
     .hello-text {
         font-size: 20px;
         line-height: 35px;
-        color: var(--dark);
+        
     }
 
     .hello-link {
@@ -363,14 +363,14 @@
 
     .projects-section {
         padding: 100px 0;
-        background: var(--light-97);
+        
     }
 
     .projects-section-heading {
         text-align: center;
         font-weight: 700;
         font-size: 36px;
-        color: var(--dark);
+        
         padding: 50px 0;
     }
 
@@ -420,7 +420,7 @@
 
     .hello-section {
         padding: 100px 0;
-        background: var(--light-98);
+        
     }
 
     .hello-container {
@@ -445,13 +445,13 @@
     .hello-greeting {
         font-weight: 700;
         font-size: 64px;
-        color: var(--dark);
+        
     }
 
     .hello-text {
         font-size: 28px;
         line-height: 35px;
-        color: var(--dark);
+        
     }
 
     .hello-link {
@@ -467,14 +467,14 @@
 
     .projects-section {
         padding: 100px 0;
-        background: var(--light-97);
+        
     }
 
     .projects-section-heading {
         text-align: center;
         font-weight: 700;
         font-size: 48px;
-        color: var(--dark);
+        
         padding: 50px 0;
     }
 
