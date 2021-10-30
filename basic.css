@@ -1,25 +1,28 @@
 :root{
     --blue: #2196f3;
+    /* do not use */
     --dark: #203446;
-    --grey-5: #2b3e4f;
-    --grey-10: #364859;
-    --grey-15: #415262;
-    --grey-20: #4d5d6b;
-    --grey-25: #586774;
-    --grey-30: #63717e;
-    --grey-35: #6e7b87;
-    --grey-40: #798590;
-    --grey-45: #848f99;
-    --grey-50: #909aa3;
-    --grey-55: #9ba4ac;
-    --grey-60: #a6aeb5;
-    --grey-65: #b1b8be;
-    --grey-70: #bcc2c8;
-    --grey-75: #c7ccd1;
-    --grey-80: #d2d6da;
-    --grey-85: #dee1e3;
-    --grey-90: #e9ebed;
-    --grey-95: #f4f5f6;
+    /* tints of black */
+    --grey-5: #0d0d0d;
+    --grey-10: #191919;
+    --grey-15: #262626;
+    --grey-20: #333333;
+    --grey-25: #404040;
+    --grey-30: #4d4d4d;
+    --grey-35: #595959;
+    --grey-40: #666666;
+    --grey-45: #737373;
+    --grey-50: #808080;
+    --grey-55: #8c8c8c;
+    --grey-60: #999999;
+    --grey-65: #a6a6a6;
+    --grey-70: #b3b3b3;
+    --grey-75: #bfbfbf;
+    --grey-80: #cccccc;
+    --grey-85: #d9d9d9;
+    --grey-90: #e6e6e6;
+    --grey-95: #f2f2f2;
+    /* do not use */
     --white: #ffffff;
     --light-98: #fbfbfb;
     --light-97: #f8f9f9;
