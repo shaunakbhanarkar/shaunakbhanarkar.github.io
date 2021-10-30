@@ -107,7 +107,7 @@ a:hover {
     }
 
     .navigation-item:hover {
-        
+        color: black;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
@@ -115,7 +115,7 @@ a:hover {
         margin: 20px;
         font-size: 16px;
         
-        border-bottom: 1px solid black;
+        border-bottom: 2px solid black;
         cursor: pointer;
     }
 
@@ -196,7 +196,7 @@ a:hover {
     }
 
     .navigation-item:hover {
-        
+        color: black;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
@@ -204,7 +204,7 @@ a:hover {
         margin: 20px;
         font-size: 16px;
         
-        border-bottom: 1px solid black;
+        border-bottom: 2px solid black;
         cursor: pointer;
     }
 
@@ -287,7 +287,7 @@ a:hover {
     }
 
     .navigation-item:hover {
-        
+        color: black;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
@@ -295,7 +295,7 @@ a:hover {
         margin: 20px;
         font-size: 16px;
         
-        border-bottom: 1px solid black;
+        border-bottom: 2px solid black;
         cursor: pointer;
     }
 
@@ -378,7 +378,7 @@ a:hover {
     }
 
     .navigation-item:hover {
-        
+        color: black;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
@@ -386,7 +386,7 @@ a:hover {
         margin: 20px;
         font-size: 16px;
         
-        border-bottom: 1px solid black;
+        border-bottom: 2px solid black;
         cursor: pointer;
     }
 
@@ -471,7 +471,7 @@ a:hover {
     }
 
     .navigation-item:hover {
-        
+        color: black;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
@@ -479,7 +479,7 @@ a:hover {
         margin: 20px;
         font-size: 18px;
         
-        border-bottom: 1px solid black;
+        border-bottom: 2px solid black;
         cursor: pointer;
     }
 
