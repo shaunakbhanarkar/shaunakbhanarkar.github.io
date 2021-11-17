@@ -37,15 +37,13 @@
 /*quick links*/
 
 .quick-links-container {
-    position: fixed;
-    left: 0;
-    top: 50%;
-    transform: translate(0, -50%);
+    position: sticky;
+    top: 10px;
     background: white;
     padding: 10px 20px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-radius: 6px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    margin-right: 40px;
 }
 
 .quick-link {
@@ -69,8 +67,12 @@
 /*mobile breakpoint*/
 @media (max-width: 499px ) {
 
-    .quick-links-container {
+    .sidebar {
         display: none;
+    }
+
+    .main-content {
+        width: 100%;
     }
 
     .overview-container {
@@ -92,6 +94,7 @@
 
     .hero-section {
         padding: 40px 0;
+        border-radius: 10px;
     }
 
 
@@ -251,8 +254,12 @@
 /*tablet breakpoint*/
 @media (min-width: 500px ) and (max-width: 799px) {
 
-    .quick-links-container {
+    .sidebar {
         display: none;
+    }
+
+    .main-content {
+        width: 100%;
     }
 
     .overview-container {
@@ -267,6 +274,7 @@
 
     .hero-section {
         padding: 50px 0;
+        border-radius: 12px;
     }
 
     .header-image-section {
@@ -313,7 +321,7 @@
     .content-section-heading {
         font-weight: 600;
         font-size: 22px;
-        padding: 10px 0;
+        padding-right: 20px;
     }
 
     .content-section-text {
@@ -434,8 +442,12 @@
 @media (min-width: 800px ) and (max-width: 1099px) {
 
 
-    .quick-links-container {
+    .sidebar {
         display: none;
+    }
+
+    .main-content {
+        width: 100%;
     }
 
 
@@ -450,6 +462,7 @@
 
     .hero-section {
         padding: 50px 0;
+        border-radius: 15px;
     }
 
 
@@ -496,7 +509,7 @@
     .content-section-heading {
         font-weight: 600;
         font-size: 24px;
-        padding: 20px 0;
+        padding-right: 20px;
     }
 
     .content-section-text {
@@ -616,6 +629,14 @@
 /*desktop breakpoint*/
 @media (min-width: 1100px ) and (max-width: 1499px) {
 
+    .sidebar {
+        width: 20%;
+    }
+
+    .main-content {
+        width: 80%;
+    }
+
     .overview-container {
         display: flex;
         justify-content: space-between;
@@ -627,6 +648,7 @@
 
     .hero-section {
         padding: 60px 0;
+        border-radius: 15px;
     }
 
 
@@ -673,7 +695,7 @@
     .content-section-heading {
         font-weight: 600;
         font-size: 24px;
-        padding: 20px 0;
+        padding-right: 20px;
     }
 
     .content-section-text {
@@ -793,6 +815,14 @@
 /*large desktop breakpoint*/
 @media (min-width: 1500px ) {
 
+    .sidebar {
+        width: 20%;
+    }
+
+    .main-content {
+        width: 80%;
+    }
+
     .overview-container {
         display: flex;
         justify-content: space-between;
@@ -805,6 +835,7 @@
 
     .hero-section {
         padding: 60px 0;
+        border-radius: 20px;
     }
 
     .header-image-section {
@@ -850,7 +881,7 @@
     .content-section-heading {
         font-weight: 600;
         font-size: 28px;
-        padding: 20px 0;
+        padding-right: 20px;
     }
 
     .content-section-text {
