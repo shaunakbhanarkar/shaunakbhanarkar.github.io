@@ -2,6 +2,10 @@
 
 $(document).ready(function () {
 
+    $('#view-featured-work').on('click' , function () {
+        navigate('#work');
+    });
+
     $('#ux-tab').on('click' , function() {
         $('.tab-active').removeClass('tab-active');
         $('#ux-tab').addClass('tab-active');
