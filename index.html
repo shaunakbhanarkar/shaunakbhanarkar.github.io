@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="home.js" type="text/javascript"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 
@@ -67,80 +70,114 @@
         </div>
     </section>
 
+
+
     <section id="work" class="projects-section">
         <div class="container">
             <div class="projects-section-heading">Featured Work</div>
 
-            <div class="projects-row">
-                <div class="project-container">
-                    <a href="easyglance.html">
-                        <img src="images/easyglance-cover.jpg" class="project-image">
-                        <div class="project-title">EasyGlance</div>
-                        <div class="project-description">Improving the experience of glance on Android smartphones</div>
-                    </a>
-                </div>
-                <div class="project-container">
-                    <a href="themidnightsub.html">
-                        <img src="images/themidnightsub-cover.jpg" class="project-image">
-                        <div class="project-title">The Midnight Sub</div>
-                        <div class="project-description">Website design for a cloud kitchen that targets a specific audience</div>
-                    </a>
-                </div>
+            <div class="flex-display justify-center">
+                <div id="ux-tab" class="tab tab-active pointer">UX</div>
+                <div id="branding-tab" class="tab pointer">Branding</div>
+                <div id="tech-tab" class="tab pointer">Tech</div>
             </div>
 
-            <div class="projects-row">
-                <div class="project-container">
-                    <a href="iosnotifications.html">
-                        <img src="images/ios-cover-900.jpg"
-                             srcset="
-                                    images/ios-cover-450.jpg 450w,
-                                    images/ios-cover-900.jpg 900w"
-                             sizes="100vw"
-                             class="project-image">
-                        <div class="project-title">iOS Notifications</div>
-                        <div class="project-description">Design adjustments to the iOS Notification Center</div>
-                    </a>
+            <div id="ux-projects" class="project-container-js">
+                
+                <div class="projects-row">
+                    <div class="project-container">
+                        <a href="easyglance.html">
+                            <img src="images/easyglance-cover.jpg" class="project-image">
+                            <div class="project-title">EasyGlance</div>
+                            <div class="project-description">Improving the experience of glance on Android smartphones</div>
+                        </a>
+                    </div>
+                    <div class="project-container">
+                        <a href="themidnightsub.html">
+                            <img src="images/themidnightsub-cover.jpg" class="project-image">
+                            <div class="project-title">The Midnight Sub</div>
+                            <div class="project-description">Website design for a cloud kitchen that targets a specific audience</div>
+                        </a>
+                    </div>
                 </div>
-                <div class="project-container">
-                    <a href="the-exotica.pdf" target="_blank">
-                        <img src="images/the-exotica-cover-900.jpg"
-                             srcset="
-                                    images/the-exotica-cover-450.jpg 450w,
-                                    images/the-exotica-cover-900.jpg 900w"
-                             sizes="100vw"
-                             class="project-image">
-                        <div class="project-title">The Exotica</div>
-                        <div class="project-description">Brand development guide for a luxury fine dining restaurant</div>
-                    </a>
+
+                <div class="projects-row">
+                    <div class="project-container">
+                        <a href="iosnotifications.html">
+                            <img src="images/ios-cover-900.jpg"
+                                 srcset="
+                                        images/ios-cover-450.jpg 450w,
+                                        images/ios-cover-900.jpg 900w"
+                                 sizes="100vw"
+                                 class="project-image">
+                            <div class="project-title">iOS Notifications</div>
+                            <div class="project-description">Design adjustments to the iOS Notification Center</div>
+                        </a>
+                    </div>
                 </div>
+
             </div>
 
-            <div class="projects-row">
-                <div class="project-container">
-                    <a href="ujala.html">
-                        <img src="images/ujala-cover-900.jpg"
-                             srcset="
-                                    images/ujala-cover-450.jpg 450w,
-                                    images/ujala-cover-900.jpg 900w"
-                             sizes="100vw"
-                             class="project-image">
-                        <div class="project-title">Ujala</div>
-                        <div class="project-description">Development of an Android app that detects and logs power outages in campus</div>
-                    </a>
+            <div id="branding-projects" class="project-container-js hidden">
+                
+                <div class="projects-row">
+                
+                    <div class="project-container">
+                        <a href="the-exotica.pdf" target="_blank">
+                            <img src="images/the-exotica-cover-900.jpg"
+                                 srcset="
+                                        images/the-exotica-cover-450.jpg 450w,
+                                        images/the-exotica-cover-900.jpg 900w"
+                                 sizes="100vw"
+                                 class="project-image">
+                            <div class="project-title">The Exotica</div>
+                            <div class="project-description">Brand development guide for a luxury fine dining restaurant</div>
+                        </a>
+                    </div>
                 </div>
-                <div class="project-container">
-                    <a href="simplify.html">
-                        <img src="images/simplify-cover-900.jpg"
-                             srcset="
-                                    images/simplify-cover-450.jpg 450w,
-                                    images/simplify-cover-900.jpg 900w"
-                             sizes="100vw"
-                             class="project-image">
-                        <div class="project-title">Simplify</div>
-                        <div class="project-description">Ubiquitous computing project to explore enhancements in smart home automation</div>
-                    </a>
-                </div>
+
             </div>
+
+
+            <div id="tech-projects" class="project-container-js hidden">
+                
+                <div class="projects-row">
+                    <div class="project-container">
+                        <a href="ujala.html">
+                            <img src="images/ujala-cover-900.jpg"
+                                 srcset="
+                                        images/ujala-cover-450.jpg 450w,
+                                        images/ujala-cover-900.jpg 900w"
+                                 sizes="100vw"
+                                 class="project-image">
+                            <div class="project-title">Ujala</div>
+                            <div class="project-description">Development of an Android app that detects and logs power outages in campus</div>
+                        </a>
+                    </div>
+                    <div class="project-container">
+                        <a href="simplify.html">
+                            <img src="images/simplify-cover-900.jpg"
+                                 srcset="
+                                        images/simplify-cover-450.jpg 450w,
+                                        images/simplify-cover-900.jpg 900w"
+                                 sizes="100vw"
+                                 class="project-image">
+                            <div class="project-title">Simplify</div>
+                            <div class="project-description">Ubiquitous computing project to explore enhancements in smart home automation</div>
+                        </a>
+                    </div>
+                </div>
+
+                
+            </div>
+
+
+
+
+
+            
+
+            
 
 
         </div>

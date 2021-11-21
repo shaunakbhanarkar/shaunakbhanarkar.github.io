@@ -71,9 +71,26 @@ a:hover {
     display: none;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+.tab-active {
+    font-weight: 700;
+    border-bottom: 2px solid black;
+}
+
+.justify-center {
+    justify-content: center;
+}
 
 /*mobile breakpoint*/
 @media (max-width: 499px ) {
+
+    .tab {
+        font-size: 16px;
+        margin: 20px;
+    }
 
     .container {
         width: 100%;
@@ -159,6 +176,11 @@ a:hover {
 
 /*tablet breakpoint*/
 @media (min-width: 500px ) and (max-width: 799px){
+
+    .tab {
+        font-size: 18px;
+        margin: 20px;
+    }
 
     .container {
         width: 100%;
@@ -252,6 +274,11 @@ a:hover {
 /*large tablet breakpoint*/
 @media (min-width: 800px ) and (max-width: 1099px){
 
+    .tab {
+        font-size: 20px;
+        margin: 20px;
+    }
+
 
     .container {
         width: 100%;
@@ -343,6 +370,11 @@ a:hover {
 
 /*desktop breakpoint*/
 @media (min-width: 1100px ) and (max-width: 1499px) {
+
+    .tab {
+        font-size: 20px;
+        margin: 20px;
+    }
 
     .container {
         width: 100%;
@@ -436,6 +468,11 @@ a:hover {
 
 /*large desktop breakpoint*/
 @media (min-width: 1500px ) {
+
+    .tab {
+        font-size: 24px;
+        margin: 40px;
+    }
 
     .container {
         width: 100%;
