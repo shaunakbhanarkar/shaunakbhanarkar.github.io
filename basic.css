@@ -62,6 +62,9 @@ a:hover {
 }
 
 
+.center-text {
+    text-align: center;
+}
 
 .social-link {
     margin: 20px;
