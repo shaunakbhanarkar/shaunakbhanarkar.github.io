@@ -128,8 +128,12 @@
 /*mobile breakpoint*/
 @media (max-width: 499px ) {
 
+    .about-config {
+        display: block;
+    }
+
     .about-hero-section {
-        text-align: center;
+        
         padding: 20px 0;
         
     }
@@ -233,14 +237,18 @@
 /*tablet breakpoint*/
 @media (min-width: 500px ) and (max-width: 799px){
 
+    .about-config {
+        display: flex;
+        align-items: flex-start;
+    }
+
     .about-hero-section {
-        text-align: center;
         padding: 40px 0;
         
     }
 
     .about-hero-image {
-        width: 75%;
+        width: 45%;
     }
 
     .driving-container {
@@ -330,14 +338,19 @@
 /*large tablet breakpoint*/
 @media (min-width: 800px ) and (max-width: 1099px){
 
+    .about-config {
+        display: flex;
+        align-items: flex-start;
+    }
+
     .about-hero-section {
-        text-align: center;
+    
         padding: 40px 0;
         
     }
 
     .about-hero-image {
-        width: 60%;
+        width: 45%;
     }
 
 
@@ -427,14 +440,18 @@
 /*desktop breakpoint*/
 @media (min-width: 1100px ) and (max-width: 1499px) {
 
+    .about-config {
+        display: flex;
+        align-items: flex-start;
+    }
+
     .about-hero-section {
-        text-align: center;
         padding: 50px 0;
         
     }
 
     .about-hero-image {
-        width: 75%;
+        width: 45%;
     }
 
 
@@ -529,15 +546,20 @@
 /*large desktop breakpoint*/
 @media (min-width: 1500px ) {
 
+    .about-config {
+        display: flex;
+        align-items: flex-start;
+    }
+
 
     .about-hero-section {
-        text-align: center;
+        
         padding: 60px 0;
         
     }
 
     .about-hero-image {
-        width: 75%;
+        width: 30%;
     }
 
 
