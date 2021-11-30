@@ -220,7 +220,7 @@
         font-size: 14px;
         padding: 12px 20px;
         border: 1px solid black;
-        border-radius: 30px;
+        border-radius: 10px;
         width: max-content;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
@@ -322,7 +322,7 @@
         font-size: 15px;
         padding: 12px 20px;
         border: 1px solid black;
-        border-radius: 30px;
+        border-radius: 10px;
         width: max-content;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
@@ -424,7 +424,7 @@
         font-size: 16px;
         padding: 12px 20px;
         border: 1px solid black;
-        border-radius: 30px;
+        border-radius: 10px;
         width: max-content;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
@@ -529,7 +529,7 @@
         font-size: 16px;
         padding: 12px 20px;
         border: 1px solid black;
-        border-radius: 30px;
+        border-radius: 10px;
         width: max-content;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
@@ -633,7 +633,7 @@
         font-size: 18px;
         padding: 15px 22px;
         border: 1px solid black;
-        border-radius: 50px;
+        border-radius: 10px;
         width: max-content;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
