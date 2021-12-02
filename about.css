@@ -248,6 +248,7 @@
     }
 
     .about-hero-image {
+        min-width: 45%;
         width: 45%;
     }
 
@@ -350,6 +351,7 @@
     }
 
     .about-hero-image {
+        min-width: 45%;
         width: 45%;
     }
 
@@ -451,6 +453,7 @@
     }
 
     .about-hero-image {
+        min-width: 45%;
         width: 45%;
     }
 
@@ -559,6 +562,7 @@
     }
 
     .about-hero-image {
+        min-width: 30%;
         width: 30%;
     }
 
