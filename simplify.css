@@ -13,7 +13,8 @@
 }
 
 mark {
-    background: var(--simplify-highlight);
+    background: none;
+    border-bottom: 2px solid var(--simplify-accent);
 }
 
 .simplify-hero-image {

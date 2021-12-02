@@ -64,14 +64,14 @@
     <section class="hero-section simplify-background">
         <div class="container" style="text-align: center;">
             <div class="title white">Simplify</div>
-            <div class="description white">Enhancing smart home experience</div>
+            <div class="description white">Exploring gesture based control of smart home devices using Leap Motion Controller</div>
             <img src="images/leap-motion-visualiser.jpg"
                  class="simplify-hero-image" >
         </div>
     </section>
 
     <div class="quick-links-container">
-        <div id="nav-background" class="quick-link">Background</div>
+        <div id="nav-background" class="quick-link">Overview</div>
         <div id="nav-problem-statement" class="quick-link">Problem Statement</div>
         <hr>
         <div id="nav-leap-motion-controller" class="quick-link">Leap Motion Controller</div>
@@ -132,10 +132,13 @@
     <section id="background" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">
-                <div>Background</div>
+                <div>Overview</div>
                 <div>___</div>
             </div>
-            <div class="content-section-text">Automation and smart computing have opened up immense possibilities in a variety of segments. With the advancements in Internet of Things (IoT), we can take advantage of these capabilities to provide far better experiences. In this project, we explored ways to <mark>enhance smart home experience, specifically the operation of household devices,</mark> with ubiquitous computing.</div>
+            <div class="content-section-text">
+                Ubiquitous computing has opened up immense possibilities in smart home automation. 
+                In the course Software Development for Portable Devices during my undergrad, we worked on exploring the possibilities of <mark>controlling smart home devices using hand gestures.</mark> 
+            </div>
         </div>
     </section>
 
@@ -163,7 +166,11 @@
     <section id="leap-motion-controller" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">What is Leap Motion Controller?</div>
-            <div class="content-section-text">Leap Motion Controller is a sensor based device that <mark>recognises hand gestures and finger motions without any direct contact.</mark> The data captured by the hardware is sent to a computing device via USB, where it is analysed and the output is generated. The technology is fairly accurate in identifying distinct gestures.</div>
+            <div class="content-section-text">
+                Leap Motion Controller is a <mark>sensor based device that recognises hand gestures and finger motions without any direct contact.</mark> 
+                The data captured by the hardware is sent to a computing device via USB, where it is analysed and the output is generated.
+                The technology is fairly accurate in identifying distinct gestures.
+            </div>
             <figure>
                 <img src="images/leap-motion-controller.jpg" class="simplify-image">
                 <figcaption>Source: <a class="source-link" href="https://www.ultraleap.com/" target="_blank">UltraLeap</a> </figcaption>
@@ -174,14 +181,20 @@
     <section id="setup" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">How did we use it?</div>
-            <div class="content-section-text">By taking advantage of Leap Motion Controller's technology, we developed a program on the host device to send the data to Firebase real-time database. On the other end, we programmed a Node MCU chip to operate different LEDs based on the logic in database.</div>
+            <div class="content-section-text">
+                By taking advantage of Leap Motion Controller, we developed a program on the host device to send the data to Firebase real-time database. 
+                On the other end, we programmed a Node MCU chip to operate different LEDs based on the logic in database.
+            </div>
         </div>
     </section>
 
     <section id="experiment" class="content-section">
         <div class="readable-container">
             <div class="content-section-heading">What did we achieve?</div>
-            <div class="content-section-text">By performing this experiment, we were able to successfully transfer the data captured from Leap Motion Controller to a smart home appliances. Thus, we could effectively <mark>use hand gestures to control the devices almost instantly.</mark></div>
+            <div class="content-section-text">
+                By performing this experiment, we were able to successfully transfer the data captured from Leap Motion Controller to a smart home appliances.
+                Thus, we could <mark>effectively use hand gestures to control the devices almost instantly.</mark>
+            </div>
             <figure>
                 <img src="images/simplify-team.jpg" class="simplify-team-image">
                 <figcaption>Team during the showcase</figcaption>
@@ -196,41 +209,47 @@
                 <div>Further Scope</div>
                 <div>___</div>
             </div>
-            <div class="content-section-text">Leap Motion Controller can be used to automate smart home appliances and our implementation provides an easy, intuitive solution to control them. With dedicated efforts and collaboration, multi-purpose models can be configured with Leap Motion Controller to provide smart home setups suitable for everyday use.</div>
+            <div class="content-section-text">
+                Leap Motion Controller can be used to automate smart home appliances and our implementation provides an easy solution to control them. 
+                With dedicated efforts, multi-purpose models can be configured with Leap Motion Controller to provide smart home setups suitable for everyday use.
+            </div>
         </div>
     </section>
 
 
 
-    <!-- <section class="content-section">
+    <section class="content-section">
         <div class="container">
             <div class="thanks-for-reading-text">Thanks for reading!</div>
             <div class="content-section-small-heading more-projects-heading">More projects</div>
             <div class="more-projects-container">
                 <div class="more-projects-item more-projects-item-left">
-                    <a href="easyglance.html">
-                        <img src="images/easyglance-cover.jpg" class="more-projects-image">
-                        <div class="more-projects-title">EasyGlance</div>
-                        <div class="content-section-text">Improving the experience of glance on Android smartphones</div>
-                    </a>
-                </div>
-                <div class="more-projects-item">
                     <a href="iosnotifications.html">
                         <img src="images/ios-cover-900.jpg" class="more-projects-image">
                         <div class="more-projects-title">iOS Notifications</div>
-                        <div class="content-section-text">Design adjustments to the iOS Notification Center</div>
+                        <div class="content-section-text">Redesigning notifications on iOS for an improved experience</div>
                     </a>
                 </div>
-                <div class="more-projects-item more-projects-item-right">
+                
+                <div class="more-projects-item">
                     <a href="the-exotica.pdf" target="_blank">
                         <img src="images/the-exotica-cover-900.jpg" class="more-projects-image">
                         <div class="more-projects-title">The Exotica</div>
                         <div class="content-section-text">Brand development guide for a luxury fine dining restaurant</div>
                     </a>
                 </div>
+
+                <div class="more-projects-item more-projects-item-right">
+                    <a href="ujala.html">
+                        <img src="images/ujala-cover-900.jpg" class="more-projects-image">
+                        <div class="more-projects-title">Ujala</div>
+                        <div class="content-section-text">Development of an Android app to help residents of BITS Goa during power cuts</div>
+                    </a>
+                </div>
+
             </div>
         </div>
-    </section> -->
+    </section>
 
     
     <section class="footer">

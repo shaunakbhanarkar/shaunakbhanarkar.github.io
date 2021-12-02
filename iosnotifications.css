@@ -16,7 +16,8 @@
 }
 
 mark {
-    background: var(--ios-highlight);
+    background: none;
+    border-bottom: 2px solid var(--ios-accent);
 }
 
 

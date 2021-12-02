@@ -32,6 +32,10 @@ $(document).ready(function () {
         navigate('#mockups');
     });
 
+    $('#nav-reflection').on('click' , function() {
+        navigate('#reflection');
+    });
+
 
 });
 
