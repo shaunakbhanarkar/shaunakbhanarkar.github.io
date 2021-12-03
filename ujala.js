@@ -7,14 +7,6 @@ $(document).ready(function () {
     });
 
 
-    $('#nav-challenge').on('click' , function() {
-        navigate('#challenge');
-    });
-
-    $('#nav-solution').on('click' , function() {
-        navigate('#solution');
-    });
-
     $('#nav-phase-1').on('click' , function() {
         navigate('#phase-1');
     });
