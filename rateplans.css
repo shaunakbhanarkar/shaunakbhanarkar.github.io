@@ -1,0 +1,63 @@
+:root {
+    --rateplans-accent: #CB102F;
+    --rateplans-background: #CB102F;
+    --rateplans-highlight: #CB102F;
+}
+
+.rateplans-accent {
+    color: var(--rateplans-accent);
+}
+
+.rateplans-background {
+    background: var(--rateplans-background);
+}
+
+mark {
+    background: none;
+    border-bottom: 2px solid var(--rateplans-accent);
+}
+
+
+
+
+
+
+/*mobile breakpoint*/
+@media (max-width: 499px) {
+
+
+
+}
+
+/*tablet breakpoint*/
+@media (min-width: 500px) and (max-width: 799px) {
+
+
+
+
+}
+
+
+/*large tablet breakpoint*/
+@media (min-width: 800px) and (max-width: 1099px) {
+
+
+
+}
+
+
+
+
+
+/*desktop breakpoint*/
+@media (min-width: 1100px) and (max-width: 1499px) {
+
+
+}
+
+/*large desktop breakpoint*/
+@media (min-width: 1500px) {
+
+
+
+}
