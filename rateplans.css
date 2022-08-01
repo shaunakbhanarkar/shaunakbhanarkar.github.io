@@ -18,14 +18,44 @@ mark {
 }
 
 
+.card {
+    width: 100%;
+}
 
+.card-container {
+    display: flex;
+    margin: 24px 0 ;
+}
 
+.spacing {
+    min-width: 16px;
+    width: 16px;
+    max-width: 16px;
+}
 
+.bold {
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    background: #F5F6F7;
+    border-radius: 8px;
+    padding: 16px;
+}
 
 /*mobile breakpoint*/
 @media (max-width: 499px) {
 
+    .card-container {
+        display: block;
+    }
 
+    .spacing {
+        min-height: 16px;
+        height: 16px;
+        max-height: 16px;
+    }
 
 }
 
