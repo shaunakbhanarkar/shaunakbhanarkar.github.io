@@ -1,0 +1,48 @@
+:root{
+    --all-ears-accent: #80B1F2;
+    --all-ears-background: #80B1F2;
+}
+
+.all-ears-accent {
+    color: var(--all-ears-accent);
+}
+
+.all-ears-background {
+    background: var(--all-ears-background);
+}
+
+
+
+/*mobile breakpoint*/
+@media (max-width: 499px) {
+
+
+
+}
+
+/*tablet breakpoint*/
+@media (min-width: 500px) and (max-width: 799px) {
+
+
+    
+}
+
+/*large tablet breakpoint*/
+@media (min-width: 800px) and (max-width: 1099px) {
+
+
+
+}
+
+/*desktop breakpoint*/
+@media (min-width: 1100px) and (max-width: 1499px) {
+
+
+}
+
+/*large desktop breakpoint*/
+@media (min-width: 1500px) {
+
+
+
+}
