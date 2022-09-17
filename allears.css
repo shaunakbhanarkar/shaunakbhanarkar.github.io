@@ -16,33 +16,54 @@
 /*mobile breakpoint*/
 @media (max-width: 499px) {
 
-
+    .allears-display-image {
+        width: 100%;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
 
 }
 
 /*tablet breakpoint*/
 @media (min-width: 500px) and (max-width: 799px) {
 
-
+    .allears-display-image {
+        width: 100%;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
     
 }
 
 /*large tablet breakpoint*/
 @media (min-width: 800px) and (max-width: 1099px) {
 
-
+    .allears-display-image {
+        width: 100%;
+        border-radius: 6px;
+        margin-top: 30px;
+    }
 
 }
 
 /*desktop breakpoint*/
 @media (min-width: 1100px) and (max-width: 1499px) {
 
-
+    .allears-display-image {
+        width: 100%;
+        border-radius: 6px;
+        margin-top: 40px;
+    }
 }
 
 /*large desktop breakpoint*/
 @media (min-width: 1500px) {
-
+    
+    .allears-display-image {
+        width: 100%;
+        border-radius: 8px;
+        margin-top: 40px;
+    }
 
 
 }
