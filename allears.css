@@ -24,6 +24,9 @@
         margin-top: 20px;
     }
 
+    .all-ears-hero-section {
+        padding-top: 40px;
+    }
 }
 
 /*tablet breakpoint*/
@@ -33,6 +36,10 @@
         width: 100%;
         border-radius: 6px;
         margin-top: 20px;
+    }
+
+    .all-ears-hero-section {
+        padding-top: 50px;
     }
     
 }
@@ -46,6 +53,10 @@
         margin-top: 30px;
     }
 
+    .all-ears-hero-section {
+        padding-top: 50px;
+    }
+
 }
 
 /*desktop breakpoint*/
@@ -55,6 +66,10 @@
         width: 100%;
         border-radius: 6px;
         margin-top: 40px;
+    }
+
+    .all-ears-hero-section {
+        padding-top: 60px;
     }
 }
 
@@ -67,5 +82,8 @@
         margin-top: 40px;
     }
 
+    .all-ears-hero-section {
+        padding-top: 60px;
+    }
 
 }
