@@ -270,7 +270,7 @@
 
     .project-container {
         width: 50%;
-        padding: 40px;
+        padding: 40px 15px;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
@@ -368,7 +368,7 @@
 
     .project-container {
         width: 50%;
-        padding: 40px;
+        padding: 40px 15px;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
@@ -467,7 +467,7 @@
 
     .project-container {
         width: 50%;
-        padding: 80px 40px;
+        padding: 80px 20px;
         transition: all 200ms cubic-bezier(.02, .01, .47, 1);
     }
 
